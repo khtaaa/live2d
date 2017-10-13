@@ -16,7 +16,8 @@ public class start : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetMouseButtonDown (0)) {
-			Application.LoadLevel ("Sample");
+			fadeout.fade_ok = true;
+			fadeout.next = ("Sample");
 
 		}
 
