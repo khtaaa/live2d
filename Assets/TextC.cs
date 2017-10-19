@@ -13,8 +13,10 @@ public class TextC : MonoBehaviour {
 	private string currentText = string.Empty;
 	private float timeUntilDisplay = 0;
 	private float timeElapsed = 1;
-	private int currentLine = 0;
+	public static int textnunber = 0;//現在のテキストナンバー
 	private int lastUpdateCharacter = -1;
+	public bool Event=false;
+	public int[] FadeBlack_nunber;
 
 	// 文字の表示が完了しているかどうか
 	public bool IsCompleteDisplayText 
@@ -24,15 +26,24 @@ public class TextC : MonoBehaviour {
 
 	void Start()
 	{
+		Event = false;
 		SetNextLine();
+
 	}
 
 	void Update () 
 	{
+		
+
 		// 文字の表示が完了してるならクリック時に次の行を表示する
 		if( IsCompleteDisplayText ){
-			if(currentLine < scenarios.Length && Input.GetMouseButtonDown(0)){
-				SetNextLine();
+			if(textnunber < scenarios.Length && Input.GetMouseButtonDown(0)){
+				FadeBlackEvent ();
+
+				if (Event == false) {
+					
+					SetNextLine ();
+				}
 			}
 		}else{
 			// 完了してないなら文字をすべて表示する
@@ -51,10 +62,27 @@ public class TextC : MonoBehaviour {
 
 	void SetNextLine()
 	{
-		currentText = scenarios[currentLine];
+		currentText = scenarios[textnunber];
 		timeUntilDisplay = currentText.Length * intervalForCharacterDisplay;
 		timeElapsed = Time.time;
-		currentLine ++;
 		lastUpdateCharacter = -1;
+		textnunber ++;
+		//FadeBlackEvent ();
+
+	}
+
+	void FadeBlackEvent()
+	{
+		for (int i = 0; i < FadeBlack_nunber.Length; i++) {
+			Debug.Log (i);
+			if (FadeBlack_nunber [i] == textnunber) {
+				Event = true;
+				fade_to_black.fade_doun = true;
+				fade_to_black.imageN++;
+				if (fade_to_black.fadefinish==true) {
+					Event = false;
+				}
+			}
+		}
 	}
 }
