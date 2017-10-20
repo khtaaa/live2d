@@ -79,7 +79,7 @@ public class TextC : MonoBehaviour {
 				Event = true;
 				fade_to_black.fade_doun = true;
 				fade_to_black.imageN++;
-				if (fade_to_black.fadefinish==true) {
+				if (fade_to_black.fade_up==true) {
 					Event = false;
 				}
 			}

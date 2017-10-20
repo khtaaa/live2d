@@ -8,11 +8,10 @@ public class fade_to_black : MonoBehaviour {
 	public float alfa;
 	float red,blue,green;
 	public static bool fade_doun;
-	public  bool fade_up;
-	public static bool fadefinish;
+	public static bool fade_up;
 	public GameObject panel;
 	public Sprite[] SP;
-	SpriteRenderer IM;
+	Image IM;
 	public static int imageN;
 
 	// Use this for initialization
@@ -24,7 +23,7 @@ public class fade_to_black : MonoBehaviour {
 		alfa = 0;
 		fade_doun = false;
 		fade_up = false;
-		IM =GetComponent < SpriteRenderer > ();
+		IM =GetComponent < Image > ();
 		IM.sprite = SP [imageN];
 	}
 	
@@ -35,9 +34,8 @@ public class fade_to_black : MonoBehaviour {
 			panel.GetComponent<Image> ().color = new Color (red, green, blue, alfa);
 			if (alfa > 1) {
 				fade_doun = false;
-				IM.sprite= SP [imageN];
+				IM.sprite = SP [imageN];
 				fade_up = true;
-				fadefinish = false;
 
 			}
 		}
@@ -47,7 +45,6 @@ public class fade_to_black : MonoBehaviour {
 			panel.GetComponent<Image> ().color = new Color (red, green, blue, alfa);
 			if (alfa <= 0) {
 				fade_up = false;
-				fadefinish = true;
 			}
 		}
 	}

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class start : MonoBehaviour {
-	public GameObject _Start;
+	GameObject _Start;
 	// Alpha増減値(点滅スピード調整)
 	private float _Step = 0.01f;
 
