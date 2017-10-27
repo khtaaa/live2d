@@ -25,13 +25,21 @@ public class text_name_script : MonoBehaviour {
 	public float speed;//一文字表示の時間
 	public bool textcheck;//テキストが表示されてる最中かそうでないか
 
+	public Image nextsin;//次のテクストが表示可能なら右下あるやつ
+
+	public GameObject[] chracter;
+
 	void Start () {
 		Eventcheck ();
+
 	}
 
 	void Update () {
 
 		if (textcheck) {
+
+			nextsin.enabled = false;
+
 			//テキスト表示最中にクリックしたとき最後までテキストを表示させる
 			if (Input.GetMouseButtonUp (0)) {
 				nexttext();
@@ -62,6 +70,8 @@ public class text_name_script : MonoBehaviour {
 			}
 
 		} else {
+			nextsin.enabled = true;
+
 			//表示が終了してるときにクリックしたら次のテキストに切り替える
 			if (Input.GetMouseButtonUp (0) && GetComponent<fade_black> ().fade_check ==false){ 
 				Eventcheck ();
@@ -83,12 +93,22 @@ public class text_name_script : MonoBehaviour {
 
 	void Eventcheck()
 	{
+		
+
 		//次の文章があれば実行
 		if (alltextnunber < TS.Length) {
+			for (int c = 0; c < chracter.Length; c++) {
+				if (c == TS[alltextnunber].imagecount-1) {
+					chracter [c].SetActive (true);
+				} else {
+					chracter [c].SetActive (false);
+				}
+			}
+
 			//暗転のイベントがあるか判定
 			if (TS [alltextnunber].Event) {
-				GetComponent<fade_black> ().next = TS [alltextnunber].buckguraundcount;
-				GetComponent<fade_black> ().fade_check = true;
+				GetComponent<fade_black> ().next = TS [alltextnunber].buckguraundcount;//背景番号入力
+				GetComponent<fade_black> ().fade_check = true;//フェードアウト開始
 				textbox.text = "";//テキスト初期化
 				nametext.text="";//名前初期化
 			} else {
