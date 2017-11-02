@@ -35,10 +35,17 @@ public class text_name_script : MonoBehaviour {
 	}
 
 	void Update () {
+		if (Input.GetKeyUp (KeyCode.Space)) {
+			Application.Quit ();
+		}
 
 		if (textcheck) {
-
+			
 			nextsin.enabled = false;
+			//口パク
+			for (int i = 0; i < chracter.Length; i++) {
+				chracter [i].GetComponent<live2dscript> ().mouthcheck = true;
+			}
 
 			//テキスト表示最中にクリックしたとき最後までテキストを表示させる
 			if (Input.GetMouseButtonUp (0)) {
@@ -71,6 +78,10 @@ public class text_name_script : MonoBehaviour {
 
 		} else {
 			nextsin.enabled = true;
+			//口パク
+			for (int i = 0; i < chracter.Length; i++) {
+				chracter [i].GetComponent<live2dscript> ().mouthcheck = false;
+			}
 
 			//表示が終了してるときにクリックしたら次のテキストに切り替える
 			if (Input.GetMouseButtonUp (0) && GetComponent<fade_black> ().fade_check ==false){ 

@@ -20,9 +20,9 @@ public class scroll : MonoBehaviour {
 	void Update () {
 		transform.localPosition += (Vector3.left + Vector3.up) * speed * Time.deltaTime;
 
-		if (came.transform.position.y + hight * 2 < transform.position.y) {
+		if (came.transform.position.y + hight * 1.5f < transform.position.y) {
 			transform.localPosition += Vector3.down * hight * spritecount;
-		} else if (came.transform.position.x - width * 2 > transform.position.x) {
+		} else if (came.transform.position.x - width * 1.5f > transform.position.x) {
 			transform.localPosition += Vector3.right * width * spritecount;
 		}
 	}

@@ -17,7 +17,7 @@ public class start : MonoBehaviour {
 	void Update () {
 		if (Input.GetMouseButtonDown (0)) {
 			fadeout.fade_ok = true;
-			fadeout.next = ("Sample");
+			fadeout.next = ("game");
 
 		}
 
