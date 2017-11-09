@@ -182,6 +182,9 @@ public class text_name_script : MonoBehaviour {
 				textcheck = true;//表示開始	
 			}
 			alltextnunber++;//次の配列に
+		}else{
+			fadeout.next="title";
+			fadeout.fade_ok = true;
 		}
 	}
 }

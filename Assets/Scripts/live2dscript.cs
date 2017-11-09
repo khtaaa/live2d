@@ -76,6 +76,10 @@ public class live2dscript : MonoBehaviour {
 
 		live2DModel.setParamFloat("PARAM_BREATH", (float) (0.5f + 0.5f * Math.Sin( t/3.2345 )),1);//呼吸
 
+		live2DModel.setParamFloat("PARAM_ANGLE_Z", (float)(15* Math.Sin(t / 6.0)));//首振り
+
+
+
 
 		eyeBlink.setParam(live2DModel);//目ぱち
 		　
@@ -85,6 +89,7 @@ public class live2dscript : MonoBehaviour {
 	void OnRenderObject()
 	{
 		if (live2DModel == null) return;
+		live2DModel.update();
 		live2DModel.draw();
 	}
 }
