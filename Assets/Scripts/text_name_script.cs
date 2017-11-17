@@ -185,14 +185,9 @@ public class text_name_script : MonoBehaviour {
 			}
 			alltextnunber++;//次の配列に
 		}else{
-			
-			for (int i = 0; i < chracter.Length; i++) {
-				UnityEngine.GameObject.DestroyImmediate(chracter [i]);
-			}
 
-			//fadeout.next="title";
-			//fadeout.fade_ok = true;
-			Application.Quit ();
+			fadeout.next="end";
+			fadeout.fade_ok = true;
 		}
 	}
 }

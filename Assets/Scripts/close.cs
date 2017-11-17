@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class close : MonoBehaviour {
 	public GameObject manager;
+	public GameObject[] model;
 
 	public void closebutton()
 	{
@@ -16,8 +17,7 @@ public class close : MonoBehaviour {
 
 	public void topbutton()
 	{
-		//fadeout.next="title";
-		//fadeout.fade_ok = true;
-		Application.Quit ();
+		fadeout.next="title";
+		fadeout.fade_ok = true;
 	}
 }

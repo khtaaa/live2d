@@ -47,6 +47,7 @@ public class live2dscript : MonoBehaviour {
 	void Update()
 	{
 		
+		
 			if (live2DModel == null)
 				return;
 			live2DModel.setMatrix (transform.localToWorldMatrix * live2DCanvasPos);
