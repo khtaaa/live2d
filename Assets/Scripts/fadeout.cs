@@ -2,20 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using live2d;
 
 public class fadeout : MonoBehaviour {
 	public float speed = 0.01f;
 	public float alfa;
-	float red,green,blue;
 	public static bool fade_ok;
 	public static string next;
 
 	// Use this for initialization
 	void Start () {
-		red = GetComponent<Image> ().color.r;
-		green = GetComponent<Image> ().color.g;
-		blue = GetComponent<Image> ().color.b;
 		alfa = 0;
 		fade_ok = false;
 		next = null;
@@ -25,7 +23,7 @@ public class fadeout : MonoBehaviour {
 	void Update () {
 		if (fade_ok) {
 			alfa += speed;
-			GetComponent<Image> ().color = new Color (red, green, blue, alfa);
+			GetComponent<Image> ().color = new Color (0, 0, 0, alfa);
 			if (alfa > 1) {
 				fade_ok = false;
 				SceneManager.LoadScene (next);

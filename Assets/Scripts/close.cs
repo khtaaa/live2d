@@ -16,7 +16,8 @@ public class close : MonoBehaviour {
 
 	public void topbutton()
 	{
-		fadeout.next="title";
-		fadeout.fade_ok = true;
+		//fadeout.next="title";
+		//fadeout.fade_ok = true;
+		Application.Quit ();
 	}
 }

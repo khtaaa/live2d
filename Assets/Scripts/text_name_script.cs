@@ -52,10 +52,7 @@ public class text_name_script : MonoBehaviour {
 	}
 
 	void Update () {
-		if (Input.GetKeyUp (KeyCode.Space)) {
-			Application.Quit ();
-		}
-
+			
 		if (closecheck) {
 			
 			//-----すべて表示-----
@@ -64,81 +61,86 @@ public class text_name_script : MonoBehaviour {
 			nextsin.enabled = true;//右下のやつ
 			textbox.SetActive (true);//テキストボックス
 			closeobj.SetActive (true);//閉じるボタン
-			topbutton.SetActive(true);//topボタン
+			topbutton.SetActive (true);//topボタン
 
 			//-----すべて表示-----
 
-			if (textcheck) {
+				if (textcheck) {
 			
-				nextsin.enabled = false;
-				//口パク
-				for (int i = 0; i < chracter.Length; i++) {
-					chracter [i].GetComponent<live2dscript> ().mouthcheck = true;
-				}
+					nextsin.enabled = false;
+					//口パク
+					for (int i = 0; i < chracter.Length; i++) {
+						if (chracter[i] == null) return;
+						chracter [i].GetComponent<live2dscript> ().mouthcheck = true;
+					}
 
-				//テキスト表示最中にクリックしたとき最後までテキストを表示させる
-				if ((Input.GetMouseButtonUp (0)) && !pos()) {
-					nexttext ();
-					textcheck = false;
-				}
+					//テキスト表示最中にクリックしたとき最後までテキストを表示させる
+					if ((Input.GetMouseButtonUp (0)) && !pos ()) {
+						nexttext ();
+						textcheck = false;
+					}
 
-				//現在の文字数が最後まで表示されるまで起動
-				if (textnunber < nextstory.Length) {
+					//現在の文字数が最後まで表示されるまで起動
+					if (textnunber < nextstory.Length) {
 
-					timer += Time.deltaTime;//時間カウント
+						timer += Time.deltaTime;//時間カウント
 
-					//一定時間ごとに文字の判定
-					if (timer > speed) {
-						//表示する文字が半角スペースなら改行それ以外ならそのまま表示
-						if (nextstory [textnunber] == ' ') {
-							storytext.text += "\n";//改行
-						} else {
-							storytext.text += nextstory [textnunber];//一文字追加
+						//一定時間ごとに文字の判定
+						if (timer > speed) {
+							//表示する文字が半角スペースなら改行それ以外ならそのまま表示
+							if (nextstory [textnunber] == ' ') {
+								storytext.text += "\n";//改行
+							} else {
+								storytext.text += nextstory [textnunber];//一文字追加
+							}
+							timer = 0;//タイマー初期化
+							textnunber++;//文字カウントを進める
 						}
-						timer = 0;//タイマー初期化
-						textnunber++;//文字カウントを進める
+					}
+
+					//文字をすべて表示されていたら表示を終了
+					if (textnunber == nextstory.Length) {
+						textcheck = false;//表示終了
+					}
+
+				} else {
+					nextsin.enabled = true;//右下のやつ
+					//口パク
+					for (int i = 0; i < chracter.Length; i++) {
+						if (chracter[i] == null) return;
+						chracter [i].GetComponent<live2dscript> ().mouthcheck = false;
+					}
+
+					//表示が終了してるときにクリックしたら次のテキストに切り替える
+					if (Input.GetMouseButtonUp (0) && GetComponent<fade_black> ().fade_check == false) { 
+						Eventcheck ();
 					}
 				}
-
-				//文字をすべて表示されていたら表示を終了
-				if (textnunber == nextstory.Length) {
-					textcheck = false;//表示終了
-				}
-
+				
 			} else {
-				nextsin.enabled = true;//右下のやつ
-				//口パク
+
+				//-----キャラクター以外非表示-----
+				nametext.enabled = false;//名前用テキスト
+				storytext.enabled = false;//シナリオ用テキスト
+				nextsin.enabled = false;//右下のやつ
+				textbox.SetActive (false);//テキストボックス
+				closeobj.SetActive (false);//閉じるボタン
+				topbutton.SetActive (false);//topボタン
+
+				//-----キャラクター以外非表示-----
+
+				//口パク停止
 				for (int i = 0; i < chracter.Length; i++) {
 					chracter [i].GetComponent<live2dscript> ().mouthcheck = false;
 				}
 
-				//表示が終了してるときにクリックしたら次のテキストに切り替える
-				if (Input.GetMouseButtonUp (0) && GetComponent<fade_black> ().fade_check == false) { 
-					Eventcheck ();
+				//非表示解除
+				if (Input.GetMouseButtonDown (0)) {
+					closecheck = true;
 				}
 			}
-		} else {
-
-			//-----キャラクター以外非表示-----
-			nametext.enabled = false;//名前用テキスト
-			storytext.enabled = false;//シナリオ用テキスト
-			nextsin.enabled = false;//右下のやつ
-			textbox.SetActive (false);//テキストボックス
-			closeobj.SetActive (false);//閉じるボタン
-			topbutton.SetActive(false);//topボタン
-
-			//-----キャラクター以外非表示-----
-
-			//口パク停止
-			for (int i = 0; i < chracter.Length; i++) {
-				chracter [i].GetComponent<live2dscript> ().mouthcheck = false;
-			}
-
-			//非表示解除
-			if (Input.GetMouseButtonDown (0)) {
-				closecheck = true;
-			}
-		}
+			
+		
 	}
 
 	//いっきにテキストを最後まで表示させる
@@ -183,8 +185,14 @@ public class text_name_script : MonoBehaviour {
 			}
 			alltextnunber++;//次の配列に
 		}else{
-			fadeout.next="title";
-			fadeout.fade_ok = true;
+			
+			for (int i = 0; i < chracter.Length; i++) {
+				UnityEngine.GameObject.DestroyImmediate(chracter [i]);
+			}
+
+			//fadeout.next="title";
+			//fadeout.fade_ok = true;
+			Application.Quit ();
 		}
 	}
 }
