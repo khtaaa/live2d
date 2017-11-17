@@ -21,8 +21,6 @@ public class live2dscript : MonoBehaviour {
 			if (transform == null) {
 				return;
 			}
-		
-			OnRenderObject ();
 
 			//live2d初期化
 			if (live2DModel != null)
@@ -42,6 +40,8 @@ public class live2dscript : MonoBehaviour {
 
 			//canvas作成
 			live2DCanvasPos = Matrix4x4.Ortho (0, modelWidth, modelWidth, 0, -50.0f, 50.0f);
+
+			OnRenderObject ();
 	}
 
 	void Update()
