@@ -33,23 +33,13 @@ public class text_name_script : MonoBehaviour {
 	public GameObject closeobj;//閉じるボタン
 	public GameObject topbutton;//topボタン
 
+    public bool touchcheck = false;//ボタン以外の画面タッチ
+
 	void Start () {
 		Eventcheck ();
 
 	}
 
-	//閉じるボタンにカーソルあるかどうか
-	public bool pos()
-	{
-		float width = closeobj.transform.GetComponent<RectTransform>().sizeDelta.x;
-		float height = closeobj.transform.GetComponent<RectTransform>().sizeDelta.y;
-		float mposx = Input.mousePosition.x;
-		float mposy = Input.mousePosition.y;
-		return ((mposx > closeobj.transform.position.x-width/2) &&
-			(mposx<closeobj.transform.position.x+width/2)&&
-			(mposy>closeobj.transform.position.y-height/2)&&
-			(mposy<closeobj.transform.position.y+height/2));
-	}
 
 	void Update () {
 			
@@ -75,7 +65,8 @@ public class text_name_script : MonoBehaviour {
 					}
 
 					//テキスト表示最中にクリックしたとき最後までテキストを表示させる
-					if ((Input.GetMouseButtonUp (0)) && !pos ()) {
+					if (touchcheck) {
+                    touchcheck = false;
 						nexttext ();
 						textcheck = false;
 					}
@@ -112,7 +103,8 @@ public class text_name_script : MonoBehaviour {
 					}
 
 					//表示が終了してるときにクリックしたら次のテキストに切り替える
-					if (Input.GetMouseButtonUp (0) && GetComponent<fade_black> ().fade_check == false) { 
+					if (touchcheck && GetComponent<fade_black> ().fade_check == false) {
+                    touchcheck = false;
 						Eventcheck ();
 					}
 				}
@@ -135,7 +127,8 @@ public class text_name_script : MonoBehaviour {
 				}
 
 				//非表示解除
-				if (Input.GetMouseButtonDown (0)) {
+				if ( touchcheck) {
+                touchcheck = false;
 					closecheck = true;
 				}
 			}
@@ -190,5 +183,11 @@ public class text_name_script : MonoBehaviour {
 			fadeout.fade_ok = true;
 		}
 	}
+
+    //ボタン以外の画面がタッチされてるか判定用
+    public void touch()
+    {
+        touchcheck = true;
+    }
 }
 
