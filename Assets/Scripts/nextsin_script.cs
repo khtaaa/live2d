@@ -9,11 +9,11 @@ public class nextsin_script : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		pos = transform.position;//初期座標を代入
+		pos = transform.localPosition;//初期座標を代入
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		this.gameObject.transform.position = new Vector2 (pos.x , pos.y+ Mathf.PingPong (Time.time*speed, distance));//移動
+        this.gameObject.transform.localPosition = new Vector2 (pos.x , pos.y + Mathf.PingPong (Time.time*speed,  distance));//移動
 	}
 }
