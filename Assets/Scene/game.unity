@@ -1406,6 +1406,7 @@ GameObject:
   - component: {fileID: 1854844335}
   - component: {fileID: 1854844336}
   - component: {fileID: 1854844334}
+  - component: {fileID: 1854844337}
   m_Layer: 0
   m_Name: manager
   m_TagString: Untagged
@@ -1436,8 +1437,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 8caba751c598c8249b0050842ce286ca, type: 3}
   - {fileID: 21300000, guid: 8189988c93093744a9c5ffae9778e52d, type: 3}
   - {fileID: 21300000, guid: 26af0d9bf83b109478c023b6873056d0, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!4 &1854844335
 Transform:
   m_ObjectHideFlags: 0
@@ -1468,11 +1467,13 @@ MonoBehaviour:
     buckguraundcount: 0
     text: 
     Event: 0
+    vois: {fileID: 0}
   - Name: "\u512A\u5E0C"
     imagecount: 0
     buckguraundcount: 0
     text: "\u79C1\u306F\u3001\u63A2\u5075\u3068\u3044\u3046\u8077\u696D\u306B\u61A7\u308C\u3066\u3044\u308B\u3002"
     Event: 0
+    vois: {fileID: 8300000, guid: 47edb8462b628e1499fa772a5d8cb4ab, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 0
     buckguraundcount: 0
@@ -1480,6 +1481,7 @@ MonoBehaviour:
       \u3069\u3093\u306A\u96E3\u4E8B\u4EF6\u3082\u77AC\u304F\u9593\u306B\u89E3\u6C7A\u3057\u3066\u3057\u307E\u3046\u3088\u3046\u306A\u3001
       \u305D\u3093\u306A\u4EBA\u7269\u306B\u3001\u61A7\u308C\u3066\u3044\u308B\u3002 "
     Event: 0
+    vois: {fileID: 8300000, guid: 98b809b8207c9a64ea7d07edfb406d1b, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 0
     buckguraundcount: 0
@@ -1487,11 +1489,13 @@ MonoBehaviour:
       \u5C0F\u8AAC\u306B\u767B\u5834\u3059\u308B\u3088\u3046\u306A\u83EF\u9E97\u306A\u63A2\u5075\u306F\u3044\u306A\u304F\u3066\u3001
       \u63A2\u5075\u306E\u4ED5\u4E8B\u304C\u6CE5\u81ED\u3044\u3082\u306E\u306A\u306E\u306F\u77E5\u3063\u3066\u3044\u308B\u3002 "
     Event: 0
+    vois: {fileID: 8300000, guid: 47675931d94488842b3d3c5d36734130, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 0
     buckguraundcount: 0
     text: "\u3051\u308C\u3069\u3082\u3001\u3060\u3051\u308C\u3069\u3082\u3001 \u305D\u308C\u3067\u3082\u3084\u3063\u3071\u308A\u3001\u601D\u3046\u306E\u3067\u3042\u308B\u3002 "
     Event: 0
+    vois: {fileID: 8300000, guid: c06a79bf98dd5c64b903a2758a697967, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 0
     buckguraundcount: 0
@@ -1499,226 +1503,270 @@ MonoBehaviour:
       \u5C0F\u8AAC\u306B\u767B\u5834\u3059\u308B\u63A2\u5075\u305F\u3061\u306E\u83EF\u9E97\u306A\u6D3B\u8E8D\u3092\u8AAD\u3080\u305F\u3073\u306B\u3001
       \u601D\u3046\u306E\u3067\u3042\u308B\u3002 "
     Event: 0
+    vois: {fileID: 8300000, guid: 967fd56091819284395fb81f033dfe57, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 0
     buckguraundcount: 0
     text: "\u3042\u3042\u3001\u3084\u3063\u3071\u308A\u2026\u2026"
     Event: 0
+    vois: {fileID: 8300000, guid: 7754ff55f147150438948a53e7570031, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 0
     buckguraundcount: 0
     text: "\u63A2\u5075\u3063\u3066\u3084\u3064\u306F\u3001\u304B\u3063\u3053\u3044\u3044\u306A\u3042\u3001\u3068\u3002"
     Event: 0
+    vois: {fileID: 8300000, guid: acaf910c3a37a684c91794748a6f8ea4, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 1
     text: 
     Event: 1
+    vois: {fileID: 0}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: "\u300C\u67D0\u6708\u67D0\u65E5\u3000\u85E4\u5BAE\u63A2\u5075\u4E8B\u52D9\u6240\u300D"
     Event: 0
+    vois: {fileID: 0}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3068\u3044\u3046\u308F\u3051\u3067\u3001\u3053\u3053\u306B\u304D\u305F\u308F\u3051\u3067\u3059\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 3524469daee591042a66aa3fbaef9473, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3068\u3044\u3046\u308F\u3051\u3067\u3001\u3068\u8A00\u308F\u308C\u307E\u3057\u3066\u3082\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 8ba43bf7b46d1e7499813487327faf4a, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u8981\u3059\u308B\u306B\u3001\u52A9\u624B\u306B\u306A\u308A\u306B\u304D\u305F\u3063\u3066\u3053\u3068\u304B\u306A\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: a6aa919fdcf9bc741895382933dd97fa, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u306F\u3044\uFF01 \u305D\u3046\u3044\u3046\u3053\u3068\u3067\u3059\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 0f7aea7a22f6fce4ebce6cc7660f97e0, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u30C6\u30EC\u30D3\u3084\u96D1\u8A8C\u3067\u85E4\u5BAE\u3055\u3093\u306E\u6D3B\u8E8D\u3092\u805E\u3044\u3066\u3001
       \u3053\u3053\u3057\u304B\u306A\u3044\u3068\u601D\u3044\u307E\u3057\u305F\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 8b229303ebe49804cb2755c3d807a7be, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u65E5\u672C\u306E\u5973\u6027\u30DB\u30FC\u30E0\u30BA\u3068\u540D\u9AD8\u3044\u3001
       \u85E4\u5BAE\u3055\u3093\u306E\u4E8B\u52D9\u6240\u3057\u304B\u306A\u3044\u3063\u3066\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: ce2d52ae0b6eb1d438e34f37536864f5, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u305D\u3093\u306A\u7570\u540D\u3092\u805E\u3044\u305F\u306E\u306F\u521D\u3081\u3066\u3060\u3051\u308C\u3069\u3082\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: a23895d172ceaa44cb9fc45fdb1840d1, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3048\u3063\u3068\u3001\u8CB4\u5973\u306F\u4ECA\u3001\u9AD8\u6821\u751F\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: c7df6467fda4d8d44983d51d04d46f1b, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u9AD8\u6821\u4E09\u5E74\u751F\u3067\u3059\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: fcc73a50897af43479fb7e844962ace7, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u63A2\u5075\u4E8B\u52D9\u6240\u306B\u6765\u308B\u3088\u308A\u3001
       \u53D7\u9A13\u52C9\u5F37\u3092\u3057\u305F\u307B\u3046\u304C\u3044\u3044\u3093\u3058\u3083\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 1df688c3435f05042b4903415a237eb3, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u53D7\u9A13\u52C9\u5F37\u306A\u3093\u3066\u3044\u3064\u3067\u3082\u3067\u304D\u307E\u3059\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: aa6fc39e899e5184e96a5ca61606281a, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3044\u3084\u3041\u2026\u2026 \u4EBA\u751F\u306E\u9650\u3089\u308C\u305F\u9593\u3057\u304B\u3067\u304D\u306A\u3044\u3068\u601D\u3046\u3088\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 628d79223f566444d8c6d512db239523, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u79C1\u3082\u305D\u308C\u3092\u3057\u3066\u308C\u3070\u3001 \u3053\u3093\u306A\u3068\u3053\u308D\u3067\u4E8B\u52D9\u54E1\u3084\u3063\u3066\u306A\u3044\u304B\u3082\u3060\u3057\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 8d30c748f6452e54681eeb8ade606cfb, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u305F\u3060\u306E\u4E8B\u52D9\u54E1\u3058\u3083\u306A\u3044\u3067\u3059\u3088\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 708907b18e25113469f57fab0743c8e8, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u4ECA\u3001\u65E5\u672C\u3067\u4E00\u756A\u30DB\u30C3\u30C8\u306A\u63A2\u5075\u4E8B\u52D9\u6240\u306E\u4E8B\u52D9\u54E1\u3067\u3059\u3088\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 1b009c6fcdda77347963998687632021, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u5225\u306B\u4E8B\u52D9\u54E1\u306F\u30DB\u30C3\u30C8\u3058\u3083\u306A\u3044\u3093\u3060\u3088\u306A\u3041\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 21b3eb84eaca29247851965561c359e3, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u305D\u308C\u3067\u3001\u3069\u3046\u3067\u3059\u304B\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 100e2bbf3b739f346b94feb7dabc8376, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u79C1\u3001\u3053\u3053\u3067\u50CD\u304B\u305B\u3066\u3082\u3089\u3048\u305F\u308A\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 0919711e02458194fb5f4decdfaadef7, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u79C1\u306E\u4E00\u5B58\u3067\u306F\u306A\u3093\u3068\u3082\u3044\u3048\u306A\u3044\u3063\u3066\u3070\u3002
       \u305F\u3060\u306E\u4E8B\u52D9\u54E1\u306A\u3093\u3060\u304B\u3089\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 2ba53a8e63c3639429d92978cffeb665, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u307E\u3042\u3046\u3093\u3001\u3082\u3046\u3059\u3050\u6240\u9577\u304C\u5E30\u3063\u3066\u304F\u308B\u304B\u3089\u3001
       \u672C\u6C17\u306A\u3089\u76F4\u63A5\u4EA4\u6E09\u3057\u3066\u307F\u3066\u304F\u3060\u3055\u3044\u306D\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 017fbdc945ee95f4a8c72a32a3a238d2, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3042\u3093\u307E\u308A\u671B\u307F\u306F\u306A\u3044\u3068\u601D\u3046\u3051\u3069\u306D\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: ff785788584a56d488354255befd2ad2, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3042\u306E\u5B50\u3001\u7D50\u69CB\u4EBA\u898B\u77E5\u308A\u3060\u304B\u3089\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: f723a67bc9fdc8d4d809209995000f5f, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u79C1\u3001\u8AB0\u3068\u3067\u3082\u3059\u3050\u306B\u4EF2\u826F\u304F\u306A\u308C\u308B\u307B\u3046\u306A\u3093\u3067\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 5d649bce9df075f4faf123fdb9dc14a7, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u305D\u308C\u306F\u305D\u308C\u3067\u3059\u3054\u3044\u81EA\u4FE1\u3060\u306D\u3047\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 16948c86ed4762043b497b74154a9b56, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: "\uFF08\u8DB3\u97F3\uFF09"
     Event: 0
+    vois: {fileID: 0}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u304A\u3001\u5642\u3092\u3059\u308C\u3070\u3060\u306D\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: bbb444ddd9d43f444a57ca8b45306e6f, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: "\uFF08\u30C9\u30A2\u304C\u958B\u304F\u97F3\uFF09"
     Event: 0
+    vois: {fileID: 0}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u305F\u3060\u3044\u307E\u2026\u2026 \u3046\u3093\uFF1F \u304A\u5BA2\u3055\u3093\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 26259729f429b684e9544d70601d41d2, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u304A\u5BA2\u3055\u3093\u3068\u3044\u3046\u304B\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 301acf57cdf98614ba705134f9cfbcba, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3042\u3001\u3042\u306E\u2026\u2026\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 70f30c5f17c0e7d4cb8bbccb644c6844, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u30B5\u30A4\u30F3\u3092\u8CB0\u3063\u3066\u3082\u3001\u3044\u3044\u3067\u3057\u3087\u3046\u304B\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: defd0a04cc1eb594998cdca3e61e7498, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 1
     text: 
     Event: 1
+    vois: {fileID: 0}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u2026\u2026\u3068\u3044\u3046\u308F\u3051\u3067\u3059\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 5cfe227c46fb04f43b23cca37bb038b0, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u306A\u308B\u307B\u3069\u306A\u308B\u307B\u3069\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 8d569e91b5e39d642ad37657d2578807, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3048\u30FC\u3063\u3068\u3001\u305D\u3046\u3060\u306A\u3041\u2026\u2026\u3000\u3068\u308A\u3042\u3048\u305A\u3001\u304A\u540D\u524D\u306F\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: d4c6beb1ebcccb442b1f119fa38aa36b, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u5409\u6FA4\u512A\u5E0C\u3067\u3059\u3002\u9AD8\u6821\u4E09\u5E74\u751F\u3067\u3059\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 1f818ea9cccdd5a4ba9d043f3b62f041, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3042\u3089\u3089\u3001\u3058\u3083\u3042\u52C9\u5F37\u3068\u304B\u5927\u5909\u3060\u306D\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: af188cd408f72d44c8840102e7bb279a, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u305D\u308C\u3001\u3055\u3063\u304D\u79C1\u3082\u8A00\u3063\u305F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 5287b08d43befc647bb9c82eb07916da, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3075\u3080\u2026\u2026 \u3068\u308A\u3042\u3048\u305A\u3001\u521D\u3081\u307E\u3057\u3066\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 2587db7c0f00a164fba55f6fd056be43, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
@@ -1726,76 +1774,90 @@ MonoBehaviour:
       \u79C1\u304C\u3053\u306E\u4E8B\u52D9\u6240\u306E\u6240\u9577\u3001 \u85E4\u5BAE
       \u5FD7\u4FDD\u3067\u3059\u3002\u4E00\u5FDC\u63A2\u5075\u3063\u3066\u3053\u3068\u306B\u306A\u308B\u304B\u306A\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 7a9326d0d6b84ed43838d3a7f49ac2d4, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3067\u3001\u3055\u3063\u304D\u307E\u3067\u8CB4\u5973\u306E\u76F8\u624B\u3092\u3057\u3066\u305F\u306E\u304C\u3001
       \u79C1\u306E\u5E7C\u99B4\u67D3\u3067\u3053\u3053\u306E\u4E8B\u52D9\u54E1\u3092\u3084\u3063\u3066\u308B\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: ce4f25a56b59d8543a8ead7052931f34, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u9727\u5C71\u3000\u5343\u6625\u3067\u3059\u3002 \u81EA\u5DF1\u7D39\u4ECB\u5FD8\u308C\u3066\u305F\u306D\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: bbfdde61bf4f1e94daf82aa7fa1a6c68, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u305D\u308C\u3067\u2026\u2026 \u30A2\u30EB\u30D0\u30A4\u30C8\u5E0C\u671B\u3063\u3066\u3053\u3068\u3067\u3001\u3044\u3044\u306E\u304B\u306A\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 40a6f499b0fe93941a57e21781c15f86, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u6B63\u78BA\u306B\u3044\u3046\u3068\u3001\u52A9\u624B\u5E0C\u671B\u3060\u306D\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 644d13ca116c58c4993e6f2262a8f452, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u305D\u3046\u3067\u3059\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 16f75990e6a70ab4ca98118afd6b6bf2, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u79C1\u3001\u524D\u306B\u85E4\u5BAE\u3055\u3093\u306E\u3054\u6D3B\u8E8D\u3092\u30C6\u30EC\u30D3\u3067\u77E5\u3063\u3066\u2026\u2026
       \u305D\u308C\u3067\u3001\u81EA\u5206\u304C\u50CD\u304F\u306A\u3089\u3053\u3053\u3057\u304B\u306A\u3044\u3063\u3066\u601D\u3063\u3066\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 9123698d6b6f0ec4b9c6085c5c7160f2, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u5FD7\u4FDD\u306E\u5927\u30D5\u30A1\u30F3\u306A\u3093\u3060\u3063\u3066\u3055\u3002
       \u306A\u3093\u3060\u3063\u3051\u3001\u5973\u7248\u30DB\u30FC\u30E0\u30BA\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 04198715298b16b4e915a40cd2058d83, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u306A\u306B\u305D\u306E\u6065\u305A\u304B\u3057\u3044\u4E8C\u3064\u540D\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 5a437ae403ac05e47afbd4a66b39c969, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3048\u3063\u3068\u3001\u5409\u6FA4\u3055\u3093\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 0c75adb2cdaf9a74a998c98660191520, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u306F\u3044\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 70fd83f84a0859f428e993a5a403ecd5, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3082\u3057\u304B\u3059\u308B\u3068\u3001\u63A2\u5075\u306B\u61A7\u308C\u304C\u3042\u308B\u306E\u304B\u3082\u3060\u3051\u3069\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: bc0309256fdfd4f4eb8f5d307314454c, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3042\u3001\u5927\u4E08\u592B\u3067\u3059\u3002 \u73FE\u5B9F\u306E\u63A2\u5075\u304C\u3069\u3093\u306A\u3053\u3068\u3092\u3057\u3066\u308B\u304B\u306F\u3001
       \u6D41\u77F3\u306B\u77E5\u3063\u3066\u308B\u3064\u3082\u308A\u3067\u3059\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: d904b8077ca956541926926f41626abd, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u6240\u5728\u8ABF\u67FB\u3068\u304B\u3001\u8FF7\u3044\u732B\u63A2\u3057\u3068\u304B\u3001
       \u6D6E\u6C17\u8ABF\u67FB\u3068\u304B\u3067\u3059\u3088\u306D\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 13e2e65f7f7a870419e5c75f3c2add68, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
@@ -1803,16 +1865,19 @@ MonoBehaviour:
       \u304A\u304A\u3088\u305D\u83EF\u3005\u3057\u3044\u4E16\u754C\u3068\u306F\u7121\u7E01\u3060\u3063\u3066\u3001
       \u305D\u3053\u306F\u7406\u89E3\u3057\u3066\u308B\u308F\u3051\u3060\u3088\u306D\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 3e0c17d8b4482df40bd9faafa2499fa1, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u60B2\u3057\u3044\u3053\u3068\u306B\u3001\u7406\u89E3\u3057\u3066\u3044\u307E\u3059\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: fc82cc83d0ddd6347b51ab2241088fb5, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3067\u3082\u3001\u85E4\u5BAE\u3055\u3093\u306F\u9055\u3044\u307E\u3059\u3088\u306D\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: aedc9b8fdf80b7e47a13bb9baccfd80e, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
@@ -1820,112 +1885,165 @@ MonoBehaviour:
       \u62DB\u304B\u308C\u3066\u3044\u3063\u305F\u30D1\u30FC\u30C6\u30A3\u30FC\u4F1A\u5834\u3067\u306E\u7A83\u76D7\u3068\u304B\u3001
       \u89E3\u6C7A\u3057\u305F\u3093\u3067\u3059\u3088\u306D\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: b3de4aeb318a9de4187e3ba5b29d7276, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u305F\u307E\u305F\u307E\u3067\u3059\u3001\u305F\u307E\u305F\u307E\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: f1228a71177b50a4bb715f468c6242e3, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u307B\u3093\u3063\u3068\u30FC\u306B\u305F\u307E\u305F\u307E\u3001
       \u904B\u826F\u304F\u3001\u5076\u7136\u3001\u5947\u8DE1\u7684\u306B\u3001 \u8B66\u5BDF\u306E\u4ED5\u4E8B\u3092\u304A\u624B\u4F1D\u3044\u3057\u305F\u3060\u3051\u3067\u3059\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: a3385781d23dde04685898859dcd4bba, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u305D\u308C\u3067\u3082\u3067\u3059\uFF01 \u305F\u307E\u305F\u307E\u3067\u3082\u3001\u5076\u7136\u3067\u3082\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 9fcdfd0a347bfc74d8aa2e2c6341957b, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u30D5\u30A3\u30AF\u30B7\u30E7\u30F3\u306E\u4E16\u754C\u306E\u63A2\u5075\u304C\u3001
       \u73FE\u5B9F\u306B\u3082\u3044\u305F\u3093\u3060\u3063\u3066\u3001 \u79C1\u304A\u3082\u3063\u305F\u3093\u3067\u3059\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 8e4e3ddee55e90e4db5605873a535fd8, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u305D\u3057\u305F\u3089\u3001\u5C45\u3066\u3082\u7ACB\u3063\u3066\u3082\u5C45\u3089\u308C\u306A\u304F\u306A\u3063\u3066\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: bb811d44c07231145b2dad9139eb6318, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3059\u3063\u3054\u3044\u884C\u52D5\u6D3E\u3060\u306D\u3001\u512A\u5E0C\u3061\u3083\u3093\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: dca4be5dfb2678340bb44879973da952, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3046\u3093\u3001\u307E\u3042\u3001\u3046\u3093\u3002 \u305D\u306E\u63A2\u5075\u306B\u304B\u3051\u308B\u60C5\u71B1\u306F\u306D\u3001\u308F\u304B\u3063\u305F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 3f2b55bf6c320024d827fc047a5a13a1, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u307B\u3093\u3068\u3067\u3059\u304B\uFF01\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 0b366a6b299a4ef49b889b8c4e967a34, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3046\u3093\u3001\u672C\u5F53\u3002 \u3059\u3054\u3044\u63A2\u5075\u304C\u597D\u304D\u306A\u3093\u3060\u306A\u3063\u3066\u601D\u3046\u3088\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: e31d47c3e2d75a44d9e0e2149741a2ad, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3067\u3082\u306D\u3001\u3054\u3081\u3093\u306D\uFF1F \u3044\u307E\u3042\u308B\u4F9D\u983C\u304C\u5168\u90E8\u7D42\u308F\u3063\u305F\u3089\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 682f6482b6b0b5f47892ff6b469e1045, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3053\u306E\u4E8B\u52D9\u6240\u306F\u3001\u9589\u3081\u3061\u3083\u3046\u3064\u3082\u308A\u306A\u306E\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 8f36539e33d3e9d47a6710d4e71bc6aa, type: 3}
+  - Name: "\u512A\u5E0C"
+    imagecount: 1
+    buckguraundcount: 0
+    text: "\u9589\u3081\u3061\u3083\u3046\u3063\u3066\u2026\u2026\u3069\u3046\u3057\u3066\u3067\u3059\u304B\uFF01\uFF1F"
+    Event: 0
+    vois: {fileID: 8300000, guid: 61a711c8889180b40b105dbcfbe973fd, type: 3}
+  - Name: "\u5FD7\u4FDD"
+    imagecount: 3
+    buckguraundcount: 0
+    text: "\u305D\u3053\u306F\u3001\u306A\u3093\u3068\u3044\u3046\u304B\u2026\u2026
+      \u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u306E\u554F\u984C\u3063\u3066\u3053\u3068\u3067 "
+    Event: 0
+    vois: {fileID: 8300000, guid: cb3f801802c359146bde857b236c58a1, type: 3}
+  - Name: "\u5FD7\u4FDD"
+    imagecount: 3
+    buckguraundcount: 0
+    text: "\u3068\u306B\u304B\u304F\u3001\u79C1\u306F\u3082\u3046\u63A2\u5075\u3092\u3059\u308B\u6C17\u306F\u306A\u3044\u3093\u3060\u3088\u306D"
+    Event: 0
+    vois: {fileID: 8300000, guid: b8479a027d97e364fa24f63cb36ba2e6, type: 3}
+  - Name: "\u5FD7\u4FDD"
+    imagecount: 3
+    buckguraundcount: 0
+    text: "\u305B\u3063\u304B\u304F\u5C0B\u306D\u3066\u304F\u308C\u305F\u306E\u306B\u60AA\u3044\u3093\u3060\u3051\u3069\u3001
+      \u3068\u306B\u304B\u304F\u305D\u3046\u3044\u3046\u3053\u3068\u3060\u304B\u3089 "
+    Event: 0
+    vois: {fileID: 8300000, guid: 225b0395e4faa6145a3fb8b7ff15dfaf, type: 3}
+  - Name: "\u5FD7\u4FDD"
+    imagecount: 3
+    buckguraundcount: 0
+    text: "\u3054\u3081\u3093\u306A\u3055\u3044\u306D\uFF1F"
+    Event: 0
+    vois: {fileID: 8300000, guid: 3543ccb6812b349418ee10b64fa7de6c, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 1
     text: 
     Event: 1
+    vois: {fileID: 0}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u307E\u3042\u3001\u305D\u3046\u6C17\u3092\u843D\u3068\u3055\u305A\u306B\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 615de95e8bfd5fa45b8000ce910d6bc4, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u306F\u3044\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 5486a53147ebb9b43bcb1fd3220016de, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u5FD7\u4FDD\u306B\u3082\u3044\u308D\u3044\u308D\u3068\u306D\u3001\u4E8B\u60C5\u304C\u3042\u308B\u304B\u3089\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 6ca2e3cda3782804eb42dfec01e5c569, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u65AD\u308B\u305F\u3081\u306E\u65B9\u4FBF\u3068\u304B\u3058\u3083\u3042\u3001\u306A\u3044\u3093\u3060\u3088\uFF1F
       \u307B\u3093\u3068\u3060\u3088\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 326a2e5499bdf6e44a92347cbc68143b, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u5927\u4E08\u592B\u3067\u3059\u3002\u308F\u304B\u3063\u3066\u307E\u3059\u3002
       \u3067\u3082\u3001\u3061\u3087\u3063\u3068\u30B7\u30E7\u30C3\u30AF\u3067\u3059\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: a55561914ffe9104884d7527214c2ea0, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u79C1\u3082\u3001\u672C\u5F53\u306E\u63A2\u5075\u306B\u306A\u308C\u308B\u3063\u3066\u3001
       \u306A\u308A\u305F\u3044\u3063\u3066\u3001\u305D\u3046\u601D\u3063\u305F\u304B\u3089\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 273d6ca04cb595f4ca640922eb3d30cf, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u307E\u3042\u3046\u3093\u3001\u6C17\u6301\u3061\u306F\u306D\u3001\u308F\u304B\u308B\u3088\u3002
       \u6614\u306F\u5FD7\u4FDD\u3082\u3001\u305D\u3046\u3044\u3046\u5B50\u3060\u3063\u305F\u3057\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: bec068a205720ab449245cf7a7806059, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u305F\u3060\u3001\u3061\u3087\u3063\u3068\u3070\u304B\u3057\u73FE\u5B9F\u304C\u624B\u5F37\u304F\u3066\u3055\u30FC\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 86a6098e5f1f6cf4e85ef7367266a328, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
@@ -1933,527 +2051,628 @@ MonoBehaviour:
       \u4EBA\u306B\u306F\u5ACC\u308F\u308C\u308B\u3057\u3001\u4F9D\u983C\u4EBA\u306F\u7121\u8336\u8A00\u3046\u3057\u3001
       \u30BF\u30FC\u30B2\u30C3\u30C8\u306B\u306F\u6068\u307E\u308C\u308B\u3057\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 917b1e3554d01ff4db1c157b35700f7f, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3063\u3068\u3001\u3054\u3081\u3093\u306D\u3002 \u5922\u898B\u308B\u524D\u9014\u3042\u308B\u9AD8\u6821\u751F\u306B\u805E\u304B\u305B\u308B\u8A71\u3058\u3083\u306A\u3044\u3063\u304B\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 6251f66cc7b9a154d949a14e8148c1a8, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3044\u3048\u3001\u5927\u4E08\u592B\u3067\u3059\u3002 \u308F\u304B\u3063\u3066\u307E\u3059\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 14368e508f937c54bbdd93e77bf226f1, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3093\u3093\u301C\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 20ede430e3da96e4192de6a9d35f3fea, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3057\u3083\u30FC\u306A\u3044\u306A\u3001\u3061\u3087\u3063\u3068\u304A\u5F85\u3061\u306A\u3055\u3044\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 0beaa6279778a3c45b998ebebb748a3f, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3048\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 8ce4c025f73e9e345a115e7957cd82e9, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u524D\u9014\u3042\u308B\u82E5\u8005\u306B\u3001 \u304A\u59C9\u3055\u3093\u304C\u9053\u3092\u4F5C\u3063\u3066\u3042\u3052\u3088\u3046\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 2a7920e01c6f90447a50f6b156b1a7af, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: "\uFF08\u53BB\u3063\u3066\u3044\u304F\u8DB3\u97F3\uFF09"
     Event: 0
+    vois: {fileID: 0}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: "\uFF08\u623B\u3063\u3066\u304F\u308B\u8DB3\u97F3\uFF09"
     Event: 0
+    vois: {fileID: 0}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3046\u3093\u3046\u3093\u3001\u3088\u3057\u3088\u3057\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: d84909755b5fb9f4886012b270b93c5b, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3042\u306E\u3001\u4E00\u4F53\u4F55\u3092\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: fcb97fdc05d7349499797376b2c2b183, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u541B\u3092\u30A2\u30EB\u30D0\u30A4\u30C8\u3068\u3057\u3066\u96C7\u3046\u3053\u3068\u306B\u306A\u308A\u307E\u3057\u305F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 9108c28fefe0c6245abaa48e805fb651, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3078\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: b5de6e13db54fe848866ea79a991e615, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3055\u3063\u304D\u5FD7\u4FDD\u304C\u8A00\u3063\u305F\u3067\u3057\u3087\uFF1F
       \u4ECA\u3042\u308B\u4F9D\u983C\u304C\u7D42\u308F\u3063\u305F\u3089\u301C\u3063\u3066\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: e116657201ead3746875fc3981fca5b0, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u306A\u3093\u3060\u304B\u3093\u3060\u3068\u58F2\u308C\u3063\u5B50\u540D\u63A2\u5075\u306A\u3093\u3067\u3001
       \u4F9D\u983C\u3082\u3073\u3063\u304F\u308A\u3059\u308B\u307B\u3069\u3042\u308B\u308F\u3051\u306A\u306E\u3088\u306D\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: f2537dccd116bb8409cfa1dd68e1d8eb, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u306A\u306E\u3067\u3001\u305D\u308C\u304C\u7D42\u308F\u308B\u307E\u3067\u306E\u9593\u3060\u3051\u3001
       \u304A\u624B\u4F1D\u3044\u3092\u304A\u9858\u3044\u3057\u3088\u3046\u304B\u306A\u3001\u3068\u3044\u3046\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 7c35a3c7e8ac5c14fba0115e1eb1d520, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u305D\u308C\u3063\u3066\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 5e1efe1e32939744ab8f10f9a6970f08, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3046\u3093\u3001\u306A\u3093\u3060\u308D\u3046\u306D\u3002 \u672C\u5F53\u306F\u6240\u9577\u304C\u8A00\u3046\u306E\u304C\u3044\u3044\u3093\u3060\u308D\u3046\u3051\u3069\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 12e0e17d7da305449af6be50363f4987, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u85E4\u5BAE\u63A2\u5075\u4E8B\u52D9\u6240\u306B\u3088\u3046\u3053\u305D\uFF01
       \u3063\u3066\u611F\u3058\u304B\u306A\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 89e89951751d44f4791f997451b6d602, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 3
     text: 
     Event: 1
+    vois: {fileID: 0}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: "\uFF08\u7FCC\u65E5\uFF09"
     Event: 0
+    vois: {fileID: 0}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3063\u3068\u3044\u3046\u308F\u3051\u3067\u30FC\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 640c97223e70f8e46b56a3f2bb63bf0d, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u4ECA\u65E5\u304B\u3089\u304A\u624B\u4F1D\u3044\u3055\u305B\u3066\u3044\u305F\u3060\u304D\u307E\u3059\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: a3ee0823bb12ce1439d6f381d54465d6, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3042\u3001\u306F\u3044\u3001\u3046\u3093\u3001\u308F\u304B\u308A\u307E\u3057\u305F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: d2004492ee71bd14db4ed951e5037cae, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u307E\u305A\u306F\u4F55\u3092\u3057\u305F\u3089\u3044\u3044\u3067\u3059\u304B\uFF01\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: a1d912a8201757543a99d8bae939d428, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u79C1\u306F\u66F8\u985E\u3068\u304B\u7528\u610F\u3059\u308B\u304B\u3089\u3001
       \u5FD7\u4FDD\u306E\u65B9\u3067\u9069\u5F53\u306B\u3088\u308D\u3057\u304F\uFF5E\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 69ffd4ce2eeda334ea961e16a0eef97a, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u81EA\u5206\u3067\u96C7\u3063\u3066\u304A\u3044\u3066\u4E38\u6295\u3052\u3059\u308B\u3093\u3060\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 82b250aae23170746873e122d631e8aa, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 0
     buckguraundcount: 0
     text: "\u300C\u3088\u308D\u3057\u304F\uFF5E\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 8642b11273d4e6940bbe47e8a1bad66f, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3046\u30FC\u3093\u2026\u2026\u3069\u3046\u3057\u3088\u3046\u304B\u306A\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 5659fae279a7bba41ab38e8abdd745a2, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u4F9D\u983C\u306F\u307E\u3042\u3001\u305F\u3057\u304B\u306B\u305F\u304F\u3055\u3093\u3042\u308B\u3051\u3069\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 26f76aed6ef132f4a8e0df7f17cd1220, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u306A\u3093\u3067\u3082\u3084\u308A\u307E\u3059\u3088\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 4a0a93d684abb6042a12d22d38c382fb, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3046\u3093\u3001\u3084\u308B\u6C17\u5341\u5206\u3060\u306D\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 48d34bba24f0bfb40a11615a8a6fde8d, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u305D\u306E\u3084\u308B\u6C17\u304C\u3059\u3054\u3044\u7729\u3057\u3044\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 0a0a6de9586adb54db4e4710e16a9446, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u76EE\u304C\u304F\u3089\u3093\u3058\u3083\u3046\u304F\u3089\u3044\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: a8bb0e27b59945842a38f2712526d985, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u82E5\u304B\u308A\u3057\u65E5\u3092\u601D\u3044\u51FA\u3059\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: b60143991e95849439e51c86366c4885, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u5927\u4E08\u592B\u3067\u3059\uFF01 \u307E\u3060\u82E5\u3044\u3067\u3059\u3088\u3001\u5FD7\u4FDD\u3055\u3093\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 81c3b677969c40243bb7884a65872182, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3046\u308F\u30FC\u5B09\u3057\u304F\u306A\u30FC\u3044\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: f2572010cfb8dd7408383a66bbe9aaaa, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u30A2\u30E9\u30B5\u30FC\u3082\u76EE\u524D\u3067\u5973\u5B50\u9AD8\u751F\u3068\u4EA4\u6D41\u3092\u6301\u3064\u306A\u3093\u3066\u3001
       \u4EBA\u751F\u3063\u3066\u308F\u304B\u3089\u306A\u3044\u2026\u2026\u672C\u5F53\u306B\u308F\u304B\u3089\u306A\u3044\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 00d716a6d1b972a448c8e3cc3c7a6e91, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u63A2\u5075\u3067\u3082\u308F\u304B\u3089\u306A\u3044\u3053\u3068\u304C\u3042\u308B\u3093\u3060\u306D\u3047\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: a417458681f83644db2e6e09b8fe5dbf, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u308F\u304B\u3089\u306A\u3044\u3053\u3068\u3060\u3089\u3051\u3060\u3088\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: aef2365bd1af31f408ead1cf6156a02a, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u305D\u308C\u304C\u3044\u3064\u304B\u5206\u304B\u308B\u3088\u3046\u306B\u306A\u308B\u306E\u304C\u3001
       \u3000\u63A2\u5075\u306E\u304A\u4ED5\u4E8B\u3067\u3059\u306D\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 81b843a8af7aa484fa281422d086f348, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u77E5\u3089\u306A\u3044\u2026\u2026\u79C1\u306E\u696D\u52D9\u3058\u3083\u306A\u3044\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: d026ffafd4086cd48adb31fb0bb4e06e, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3067\u3001\u3069\u3046\u3059\u308B\u306E\u3001\u3053\u306E\u5B50\u306F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: bdeb1064b25782d449d588f60f876b62, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3069\u3046\u3059\u308B\u3063\u3066\u8A00\u308F\u308C\u3066\u3082\u306A\u3041\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: edadaa55895bbf84ab13373d3d58985a, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3068\u308A\u3042\u3048\u305A\u3001\u4ECA\u65E5\u306F\u4F9D\u983C\u4EBA\u304C\u6765\u308B\u304B\u3089\u3001
       \u3000\u305D\u306E\u5BFE\u5FDC\u3092\u4E00\u7DD2\u306B\u3057\u3066\u3082\u3089\u304A\u3046\u304B\u306A\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: fa032edea872bc943aa82baf1ca8716d, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3053\u3093\u306A\u96E8\u306E\u65E5\u3067\u3082\u3001\u4F9D\u983C\u306F\u3042\u308B\u3093\u3067\u3059\u306D\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 0e2412fb50e4c8549ba2060e61d7a049, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3080\u3057\u308D\u96E8\u306E\u65E5\u3053\u305D\u591A\u3044\u6C17\u304C\u3059\u308B\u3051\u3069\u306D\u3002
       \u3000\u6839\u62E0\u306F\u306A\u3044\u3051\u3069\u3001\u305D\u3093\u306A\u611F\u3058\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: b3560a714c84f824a960516cacbbd13f, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u30B8\u30F3\u30AF\u30B9\u3068\u3044\u3046\u304B\u3001\u306A\u3093\u3068\u3044\u3046\u304B\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: d433380871e21fb468f31b4fd1ddc8e1, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: "\uFF08\u30A4\u30F3\u30BF\u30FC\u30DB\u30F3\u306E\u97F3\uFF09"
     Event: 0
+    vois: {fileID: 0}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3063\u3068\u3001\u5642\u3092\u3059\u308C\u3070\u3001\u304B\u306A\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 49c968ef4c74a3344b671bcdd5777403, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3054\u3081\u30FC\u3093\uFF01\u3000\u5BFE\u5FDC\u3067\u304D\u306A\u30FC\u3044\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 908ae41d3a644d14a9eeb4eac8776f7f, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3042\u3001\u79C1\u304C\u51FA\u307E\u3059\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: a49c5a5bc7886e2468ee450125a0033b, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: "\uFF08\u30C9\u30A2\u304C\u958B\u304F\u97F3\uFF09"
     Event: 0
+    vois: {fileID: 0}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u306F\u3044\u3001\u85E4\u5BAE\u63A2\u5075\u4E8B\u52D9\u6240\u3078\u3088\u3046\u3053\u305D\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 05543f432caa6e64782a038b6aad5c28, type: 3}
   - Name: "\u5973\u6027"
     imagecount: 0
     buckguraundcount: 0
     text: "\u300C\u2026\u2026\u9AD8\u6821\u751F\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: b631631901f3ac143aec4cd3601f0432, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3059\u3044\u307E\u305B\u3093\u3001\u52A9\u624B\u3067\u3059\u2026\u2026
       \u3000\u305F\u3076\u3093\u3001\u4E00\u5FDC\u3001\u5F62\u5F0F\u4E0A\u306F\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 113d76b5d709ce04491010e5d3088c8d, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 3
     text: 
     Event: 1
+    vois: {fileID: 0}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3048\u30FC\u3063\u3068\u3001\u8981\u7D04\u3059\u308B\u3068\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 8784679c7fe59e04d97544ead05f26c9, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u8FF7\u5B50\u306B\u306A\u3063\u305F\u30DA\u30C3\u30C8\u306E\u635C\u7D22\u3067\u3059\u306D\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: f9e0cd9ce8a4d8f46a31d66b911ac74e, type: 3}
   - Name: "\u5973\u6027"
     imagecount: 0
     buckguraundcount: 0
     text: "\u300C\u5BB6\u65CF\u3067\u3059\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 33bb6de56154b4442af0da89b72bcc8f, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3048\u3048\u3001\u307E\u3042\u3001\u306F\u3044\u3001 \u3000\u305D\u3053\u306F\u8A00\u8449\u306E\u7DBE\u3067\u3059\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 3f38b12b9e38780498d5e5b957b283c0, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u305D\u306E\u3001\u732B\u306E\u30C6\u30A3\u30A2\u30E9\u3061\u3083\u3093\u3067\u3057\u305F\u304B\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: c16e1b3a87ccae444b93ca69b9aab67f, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u306A\u306B\u304B\u3001\u7279\u5FB4\u306A\u3069\u306F\u3042\u308A\u307E\u3059\u304B\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 92a2a35ab27c0de479ba0c44f47d02d9, type: 3}
   - Name: "\u5973\u6027"
     imagecount: 0
     buckguraundcount: 0
     text: "\u300C\u4E00\u76EE\u898B\u308C\u3070\u308F\u304B\u308A\u307E\u3059\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: b9b2a623884cbdf45a3be796bb74c387, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3068\u3044\u3044\u307E\u3059\u3068\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 3cf0c646b6c972747b77629b458adbd4, type: 3}
   - Name: "\u5973\u6027"
     imagecount: 0
     buckguraundcount: 0
     text: "\u300C\u307B\u304B\u306E\u732B\u3088\u308A\u6C17\u54C1\u304C\u3042\u3063\u3066\u3001
       \u3000\u307B\u304B\u306E\u732B\u3088\u308A\u304D\u308C\u3044\u3067\u3001 \u3000\u307B\u304B\u306E\u732B\u3088\u308A\u304B\u308F\u3044\u3044\u3067\u3059\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 860673854b8551d4ab8d4fa4704d3f98, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u306F\u3001\u306F\u3042\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 9439a96accb7f1d43b5575ec0cdaabf6, type: 3}
   - Name: "\u5973\u6027"
     imagecount: 0
     buckguraundcount: 0
     text: "\u300C\u4E00\u5FDC\u3001\u5199\u771F\u3092\u304A\u6E21\u3057\u3057\u3066\u304A\u304D\u307E\u3059\u306D\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: a5c68e306340b5b459a5e8a4f8f0bbce, type: 3}
   - Name: "\u5973\u6027"
     imagecount: 0
     buckguraundcount: 0
     text: "\u300C\u3067\u306F\u3001\u3088\u308D\u3057\u304F\u304A\u9858\u3044\u3057\u307E\u3059\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: e619b5278bbc0f34dbc0b0f816f07502, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: "\uFF08\u8DB3\u97F3\uFF09"
     Event: 0
+    vois: {fileID: 0}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: "\uFF08\u30C9\u30A2\u304C\u958B\u304F\u97F3\uFF09"
     Event: 0
+    vois: {fileID: 0}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u307E\u3042\u3001\u98FC\u3044\u4E3B\u306F\u8AB0\u3067\u3082\u3001
       \u3000\u81EA\u5206\u306E\u30DA\u30C3\u30C8\u304C\u4E00\u756A\u3060\u3068\u601D\u3063\u3066\u307E\u3059\u3088\u306D\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 7e184976813803f4bac26ed414ff6948, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u305D\u3046\u3044\u3046\u3082\u306E\u304B\u306A\u3041\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 11a965433eef6bd44909f867843caf0e, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3068\u306F\u3044\u3048\u3001\u4ECA\u56DE\u306F\u697D\u306A\u4ED5\u4E8B\u3060\u306D\u3002
       \u3000\u5199\u771F\u3082\u3042\u308B\u3057\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: c456bc758d7e92840b384b37fbb337c3, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u305D\u3046\u306A\u3093\u3067\u3059\u304B\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 69531cd0b5e45d748b68b788236bea47, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u9177\u3044\u3068\u304D\u306F\u53E3\u982D\u3067\u7279\u5FB4\u3060\u3051\u8A00\u308F\u308C\u305F\u308A\u3001
       \u3000\u7A2E\u540D\u3060\u3051\u8A00\u308F\u308C\u305F\u308A\u3057\u305F\u304B\u3089\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 8b7145560eb12dc4d90b595d969b1b85, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u305D\u308C\u3067\u898B\u3064\u3051\u3089\u308C\u308B\u5FD7\u4FDD\u3082\u5FD7\u4FDD\u3060\u3051\u3069\u306D\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 88c36785b683ad4499ded24d654566cd, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3084\u3081\u3066\u3001\u8912\u3081\u306A\u3044\u3067\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: f6aa3e249284c5944a3cadcdcdfd73f0, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3068\u306B\u304B\u304F\u3001\u3053\u308C\u306F\u7C21\u5358\u306A\u304A\u4ED5\u4E8B\u3060\u306D\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: b483abde123fd0f4fa9c0a1cc980a0ea, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3046\u3093\u3001\u79C1\u3082\u305D\u3046\u601D\u3046\u3002 \u3000\u3074\u3063\u305F\u308A\u3060\u3068\u601D\u3046\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 1677394ab1bbc014793b43d824a4baa7, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3058\u3083\u3042\u3001\u305D\u3046\u3044\u3046\u308F\u3051\u3067\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 19f8408767ef54b46b34f8b211dfd210, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3048\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 3d7d804ed693df04ba40cdba32602a5d, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u30DD\u30AB\u30F3\u3068\u3057\u305F\u9854\u3092\u3057\u3066\u308B\u5834\u5408\u3058\u3083\u306A\u3044\u305E\uFF01
       \u3000\u541B\u306E\u521D\u4ED5\u4E8B\u3060\u63A2\u5075\u52A9\u624B\u898B\u7FD2\u3044\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 3925a75c332707844bf448e630710adf, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3042\u3001\u306F\u3044\uFF01 \u3000\u3048\u3063\u3068\u3001\u306A\u306B\u3092\u3059\u308C\u3070\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 6d35119a66fd1d9409122539a991d39f, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u5168\u90E8\u3088\u308D\u3057\u304F\u306D\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: d44c0fcc3409c9442aae1de75bad7625, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3048\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 3d7d804ed693df04ba40cdba32602a5d, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3053\u306E\u8FF7\u3044\u732B\u635C\u7D22\u306F\u3001 \u3000\u4E00\u304B\u3089\u5341\u307E\u3067\u5168\u90E8\u3001
       \u3000\u512A\u5E0C\u3061\u3083\u3093\u304C\u304A\u9858\u3044\u306D\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: dddc2d7b6fa8d1c40b0712c502d782f9, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3044\u304D\u306A\u308A\u3067\u3059\u306D\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 9e8ba04ef61980b409bfe8b16b6c9226, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u4ED5\u4E8B\u306F\u5F85\u3063\u3066\u304F\u308C\u306A\u3044\u304B\u3089\u306D\u30FC\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: cf5aeed0d65626840a1f542dc61f7134, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u79C1\u3082\u624B\u4F1D\u3046\u304B\u3089\u5927\u4E08\u592B\u5927\u4E08\u592B\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: b5b44da2c6ee86a4d86c2c4e01edefce, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3068\u306F\u3044\u3048\u3001\u4ECA\u65E5\u306F\u3042\u3044\u306B\u304F\u306E\u5929\u6C17\u3060\u304B\u3089\u2026\u2026
       \u3000\u660E\u65E5\u304B\u3089\u3001\u3088\u308D\u3057\u304F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 1fed62ed51b9bfb43a91f4b66114371e, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3068\u308A\u3042\u3048\u305A\u4ECA\u65E5\u306F\u3001 \u3000\u3053\u306E\u66F8\u985E\u306E\u7247\u3065\u3051\u3092\u624B\u4F1D\u3063\u3066\u3082\u3089\u304A\u3046\u304B\u306A\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: b105e492355a30443957ed13944d412c, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 0
     buckguraundcount: 0
     text: "\u3053\u3046\u3057\u3066\u3001\u79C1\u306E\u63A2\u5075\u6D3B\u52D5\u521D\u65E5\u306F\u3001
       \u7279\u7B46\u3059\u3079\u304D\u51FA\u6765\u4E8B\u3082\u306A\u304F\u3001\u7D42\u308F\u3063\u305F\u306E\u3060\u3063\u305F\u3002 "
     Event: 0
+    vois: {fileID: 8300000, guid: 225ea390f7a659148b4e04a13c2fb70a, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 1
     text: 
     Event: 1
+    vois: {fileID: 0}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: "\uFF08\u7FCC\u65E5\uFF09"
     Event: 0
+    vois: {fileID: 0}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: "\uFF08\u63A2\u5075\u4E8B\u52D9\u6240\uFF09"
     Event: 0
+    vois: {fileID: 0}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u306F\u3044\u3053\u308C\u3001\u5199\u771F\u306D\u30FC\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 737083ab4c7e44648982149c047bbc9a, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u53EF\u611B\u3044\u732B\u3061\u3083\u3093\u3060\u3088\u3053\u308C\u306F\u3002
       \u98FC\u3044\u4E3B\u304C\u3081\u308D\u3081\u308D\u306B\u306A\u308B\u306E\u3082\u308F\u304B\u308B\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 18d3d6f71dff2d946be03c26a046de9c, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u7279\u306B\u3053\u306E\u3001\u304A\u3067\u3053\u306E\u6A21\u69D8\u304C\u53EF\u611B\u3044\u306D\u3002
       \u767D\u3068\u9ED2\u306E\u6BDB\u4E26\u307F\u304C\u3001\u3046\u307E\u3044\u3053\u3068\u91CD\u306A\u3063\u3066\u308B\u304B\u3089\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 53faab7fab915544692ae8c7a19bf579, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u306A\u3093\u3060\u304B\u30CF\u30FC\u30C8\u307F\u305F\u3044\u306B\u898B\u3048\u307E\u3059\u306D\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: a8636411226224541aa9bd8fbc1b49f4, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u305F\u3057\u304B\u306B\u3001\u3053\u3093\u306A\u306B\u7279\u5FB4\u304C\u3042\u308B\u306A\u3089\u3001
       \u63A2\u3059\u306E\u306F\u6848\u5916\u7C21\u5358\u304B\u3082\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: a454c33e190e5a8418f40a3ea5946ceb, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
@@ -2461,6 +2680,7 @@ MonoBehaviour:
       \u3046\u3061\u306E\u4E8B\u52D9\u6240\u304C\u3067\u304D\u3066\u3059\u3050\u304B\u3089\u305A\u3063\u3068\u3042\u308B\u304B\u3089\u3001
       \u305D\u308C\u306A\u308A\u306B\u76EE\u51E6\u3068\u304B\u30B3\u30C4\u3068\u304B\u3042\u308B\u3093\u3060\u3088\u306D\u30FC\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: cee67155adb852644a99842ade896ef1, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
@@ -2468,37 +2688,44 @@ MonoBehaviour:
       \u8FD1\u6240\u306E\u4EBA\u306F\u8FF7\u60D1\u3060\u308D\u3046\u3051\u3069\u3001
       \u79C1\u305F\u3061\u306B\u306F\u3042\u308A\u304C\u305F\u3044\u6240\u3060\u306D\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 46919d49ec24c9948a873479de84f6de, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u306A\u308B\u307B\u3069\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 70554addcacd8e04ca840c6318f4713c, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3068\u3053\u308D\u3067\u3001\u4ECA\u65E5\u306F\u85E4\u5BAE\u3055\u3093\u306F\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: f53ab3af89ecf754fb3f6dab29c79f76, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3042\u30FC\u2026\u2026 \u5FD7\u4FDD\u306F\u3061\u3087\u3063\u3068\u304A\u51FA\u304B\u3051\u4E2D\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 349865fba50745840bdfb5ca0820164f, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u4F9D\u983C\u306F\u4E00\u3064\u3060\u3051\u3058\u3083\u306A\u3044\u304B\u3089\u306D\u3002
       \u6628\u65E5\u307F\u305F\u3044\u306B\u3001\u5897\u3048\u308B\u3053\u3068\u3082\u3042\u308B\u3057\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 50c2a22bb2bda6946ace4c09028ecbd9, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3084\u3081\u308B\u3093\u3060\u304B\u3089\u3001\u65AD\u3063\u3066\u3082\u3044\u3044\u306E\u306B\u306D\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: c6c9acb9f25680c4ba73f06d82d004bc, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3084\u3063\u3071\u308A\u3001\u8F9E\u3081\u3061\u3083\u3046\u3093\u3067\u3059\u304B\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 81f9acd7217cd7c4ba0613cf5742d05e, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
@@ -2506,216 +2733,263 @@ MonoBehaviour:
       \u307E\u3060\u5C11\u3057\u671B\u307F\u306F\u3042\u308B\u306E\u304B\u306A\u3063\u3066\u3001
       \u305D\u3093\u306A\u3075\u3046\u306B\u601D\u3063\u305F\u308A\u3082\u3057\u305F\u3093\u3067\u3059\u3051\u3069\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 56bcf0893f005004c8e5b3992e7b9d6b, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3093\u3093\u3093\u2026\u2026 \u3053\u308C\u3070\u3063\u304B\u308A\u306F\u672C\u4EBA\u6B21\u7B2C\u304B\u306A\u3041\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 6db068425ba3dea489fd4794c94850f6, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u305A\u308B\u3044\u8A00\u3044\u65B9\u3092\u3059\u308B\u3068\u306D\u3001
       \u5927\u4EBA\u306B\u306A\u308C\u3070\u308F\u304B\u308B\u3063\u3066\u3084\u3064\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 952988955de23134db5afda379b05917, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3055\u3066\uFF01 \u3053\u306E\u8A71\u306F\u3053\u308C\u3067\u304A\u3057\u307E\u3044\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 57125617a4c011244b912402a68e1298, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3044\u3056\u3084\u884C\u304B\u3093\u3084\u732B\u63A2\u3057\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 36ff350313920534d82d4dc180d19373, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u2026\u2026\u304A\u3001\u304A\u30FC\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: e9676faf21facd34f8c47af8ce40b34b, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u304A\u30FC\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 516d6013bfd830a4386c1cd8ab3a576e, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 5
     text: 
     Event: 1
+    vois: {fileID: 0}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: "\uFF08\u516C\u5712\uFF09"
     Event: 0
+    vois: {fileID: 0}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u306F\u3063\u306F\u3063\u306F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: ce570f4bbb5d2ee4fb98de4a5b8eb156, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3044\u306D\u3048\u3084\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 891db69ff28ed2947a5c04a0f47fc5d0, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3044\u307E\u305B\u3093\u306D\u3048\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 289ed9a881edc8547962bc5c8a3b8465, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u5199\u771F\u3067\u306F\u3001\u3059\u3050\u306B\u308F\u304B\u308B\u9854\u306A\u3093\u3067\u3059\u3051\u3069\u306D\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 131007f89f51bfb459636cb739a5e8a1, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u307E\u3042\u3001\u4E00\u65E5\u3067\u898B\u3064\u304B\u308B\u3068\u306F\u9650\u3093\u306A\u3044\u3057\u306D\u300D
       \u3068\u308A\u3042\u3048\u305A\u3001\u76EE\u6483\u60C5\u5831\u3067\u3082\u96C6\u3081\u308B\u304B\u306A\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 3d38ae8a612b97e4b8df0867a94c054d, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u805E\u304D\u8FBC\u307F\u3068\u304B\u3067\u3059\u304B\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 61f66cd746b8f68418e77947846fd522, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u5F35\u308A\u7D19\u3068\u304B\u306F\u98FC\u3044\u4E3B\u304C\u3084\u3063\u305F\u3060\u308D\u3046\u3057\u3001
       \u79C1\u305F\u3061\u306F\u5730\u9053\u306A\u52AA\u529B\u3092\u3057\u306A\u3044\u3068\u306D\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 1dc35fdfc992d45498272b43f496ff7d, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u308F\u304B\u308A\u307E\u3057\u305F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: f69d477772571ac4b816974e0685942e, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3061\u306A\u307F\u306B\u3001\u306A\u3093\u3067\u3059\u3051\u3069\u2026\u2026
       \u3069\u3093\u306A\u4EBA\u306B\u805E\u3044\u305F\u3089\u3044\u3044\u3067\u3059\u304B\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 75cd3f12b8a08954d87ce7011ef3c896, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u732B\u304C\u597D\u304D\u305D\u3046\u306A\u4EBA\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 4603849fbdef0df449607a24b67ad84b, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u305D\u308C\u3063\u3066\u3001\u898B\u3066\u308F\u304B\u308B\u3093\u3067\u3057\u3087\u3046\u304B\u2026\u2026\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 6bf5a00e8b35d7949a6068919c10c596, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u308F\u304B\u3093\u306A\u3044\u306D\u3002 \u5FD7\u4FDD\u306A\u3089\u3067\u304D\u308B\u304B\u3082\u3060\u3051\u3069\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 3154ddba5d044774a95ababa4596a247, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u4EBA\u9593\u89B3\u5BDF\u3068\u304B\u5F97\u610F\u3060\u304B\u3089\u3001\u3042\u306E\u5B50\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: c081de28c18aacf44b6af14fbb2aef91, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u304A\u304A\uFF5E\u2026\u2026 \u3059\u3054\u3044\u63A2\u5075\u3063\u307D\u3044\u3067\u3059\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 552ecf2a49d2cb34babcb138b34144fb, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u307D\u3044\u3063\u3066\u3044\u3046\u304B\u3001\u63A2\u5075\u3060\u304B\u3089\u306D\u30FC\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 0f7ca6bbdee13d847bb89486ca85f7ea, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3057\u304B\u30FC\u3057\uFF01 \u6211\u3005\u306B\u306F\u305D\u3093\u306A\u30B9\u30AD\u30EB\u306F\u306A\u3044\u306E\u3067\u3001
       \u5730\u9053\u306B\u3001\u624B\u5F53\u305F\u308A\u6B21\u7B2C\u306B\u3057\u304B\u306A\u3044\u306E\u3067\u3059\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: cc1c68f6c72766248a891d6cf90828bc, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3057\u3044\u3066\u3044\u3046\u306A\u3089\u3001\u5C0F\u3055\u3044\u5B50\u3068\u304B\uFF1F
       \u732B\u3068\u304B\u597D\u304D\u305D\u3046\u3060\u3057\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 0c262f337842e20479ef775b0d52a8e7, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3068\u308A\u3042\u3048\u305A\u3001\u3084\u3063\u3066\u307F\u307E\u3059\u306D\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: afc68e394eff1444f9870f06c8359ef4, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3046\u3093\u3046\u3093\u3001\u305D\u306E\u610F\u6C17\u3060\uFF01
       \u3055\u3042\u3001\u805E\u304D\u8FBC\u307F\u306B\u306F\u3044\u308B\u305E\u63A2\u5075\u52A9\u624B\u898B\u7FD2\u3044\u541B\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 0ed314cdfdcf5a14b8f0c8ab9864fbad, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u306F\u3044\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: ae601f2310472e043a041ed498cdc78e, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 4
     text: 
     Event: 1
+    vois: {fileID: 0}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: "\uFF08\u516C\u5712\uFF09"
     Event: 0
+    vois: {fileID: 0}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u306F\u3063\u306F\u3063\u306F\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 8ffe615fc3b0b514fb5f888046994c26, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u53CE\u7A6B\u30BC\u30ED\u3068\u306F\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 1afa9ee49cbe26445b8890003f89b612, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3069\u3046\u3057\u307E\u3057\u3087\u3046\u304B\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 241bad82fbeb98e40ad612472a5ede3f, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u307E\u3042\u3001\u521D\u65E5\u3060\u3057\u306D\u3002 \u3053\u3093\u306A\u3082\u306E\u3068\u3044\u3048\u3070\u3053\u3093\u306A\u3082\u306E\u304B\u3082\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 28f33de1ed9ac3949bdc307a8898bb0c, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u660E\u65E5\u3082\u3042\u308B\u3057\u3001 \u4ECA\u65E5\u306F\u3053\u306E\u304F\u3089\u3044\u306B\u3057\u3088\u3063\u304B\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 199e1dbf91e6f044aa6461126c2527cf, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u306F\u3044\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 2410b483a0a4fe142b4f583abd7a7aef, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u304A\u3044\u304A\u3044\u3001\u3053\u306E\u304F\u3089\u3044\u3067\u51F9\u307E\u306A\u3044\u3067\u3088\u3002
       \u307E\u3060\u307E\u3060\u5148\u306F\u9577\u3044\u3093\u3060\u3088\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 1bc157b1b3258dc4e8442226fc74be02, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u660E\u65E5\u306F\u5225\u306E\u516C\u5712\u3068\u304B\u3001 \u96A3\u753A\u8FBA\u308A\u307E\u3067\u884C\u304F\u3068\u304B\u3001
       \u3044\u308D\u3044\u308D\u3084\u3089\u306A\u3044\u3068\u306D\u30FC\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 2d311977850b33945831bf0417f9aa17, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u305D\u3046\u3067\u3059\u3088\u306D\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: e76f8f72e188f174e8333561df90128c, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u305D\u3046\u305D\u3046\u3002 \u306A\u3093\u3067\u3082\u304B\u3093\u3067\u3082\u3059\u3063\u3071\u308A\u7D42\u308F\u308B\u308F\u3051\u3058\u3083\u306A\u3044\u3057\u3001
       \u904E\u7A0B\u3092\u697D\u3057\u307E\u306A\u3051\u308C\u3070\u3044\u3051\u307E\u305B\u3093\u3088\u3001\u304A\u5B22\u3055\u3093\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 175d9ac9d6f300543bda569e24316b1f, type: 3}
+  - Name: "\u512A\u5E0C"
+    imagecount: 1
+    buckguraundcount: 0
+    text: "\u300C\u306F\u3042\u2026\u2026\u300D "
+    Event: 0
+    vois: {fileID: 8300000, guid: b9469b2ba07a18644ba6f9dbc46b04b9, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
@@ -2723,132 +2997,157 @@ MonoBehaviour:
       \u3068\u308A\u3042\u3048\u305A\u3001\u4E00\u65E6\u4E8B\u52D9\u6240\u306B\u3088\u3063\u3066\u3082\u3089\u3048\u308B\uFF1F
       \u6642\u9593\u5927\u4E08\u592B\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 2cb81119185e92842b60ef6efff93a92, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3042\u3001\u306F\u3044\uFF01\u3000\u5927\u4E08\u592B\u3067\u3059\uFF01"
     Event: 0
+    vois: {fileID: 8300000, guid: 561d2d50e59d8814b98ad4249ed994b1, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3093\u3058\u3083\u3001\u5E30\u308A\u307E\u3059\u304B\u30FC\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: b6d19fb27bdfa9d4298baaf435a898f5, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 2
     text: 
     Event: 1
+    vois: {fileID: 0}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: "\uFF08\u4E8B\u52D9\u6240\uFF09"
     Event: 0
+    vois: {fileID: 0}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: "\uFF08\u30C9\u30A2\u306E\u958B\u304F\u97F3\uFF09"
     Event: 0
+    vois: {fileID: 0}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u305F\u3060\u3044\u307E\u30FC\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 3c4a7aab7c862274e8bc9e231cad6fb3, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3048\u3048\u3001\u306F\u3044\u3001\u306F\u3044\u2026\u2026 \u305D\u3046\u3067\u3059\u304B\u3001\u308F\u304B\u308A\u307E\u3057\u305F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 4b7cd6f4e2c536548ac7f9d196d756b9, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3042\u308A\u3083\u3001\u96FB\u8A71\u4E2D\u304B\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: d28ee892a27e92e47a1e37e91f491439, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u4F9D\u983C\u4EBA\u3068\u304B\u3067\u3057\u3087\u3046\u304B\u306D\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 546f5f54960a6d943b48062106560d11, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3044\u3084\u3001\u305D\u308C\u306F\u308F\u304B\u3093\u306A\u3044\u306A\u30FC\u2026\u2026
       \u8B66\u5BDF\u306E\u77E5\u308A\u5408\u3044\u3068\u304B\u304B\u3082\u3060\u3057\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: d84439b21015d454a80595a6043cd82e, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u8B66\u5BDF\u306E\u77E5\u308A\u5408\u3044\u2026\u2026\uFF01 \u306A\u3093\u304B\u3001\u3059\u3054\u3044\u3067\u3059\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 0a49357f83b4d8b4396dcf531a1af948, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u8B66\u5BDF\u4E0A\u5C64\u90E8\u306B\u591A\u6570\u306E\u77E5\u308A\u5408\u3044\u306E\u3044\u308B\u3001
       \u602A\u3057\u3044\u6C11\u9593\u4EBA\u3068\u306F\u79C1\u9054\u306E\u3053\u3068\u3060\u3088\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 1ed8290672954de4c922ad4e7765f8ef, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3067\u306F\u3001\u304A\u624B\u6570\u3067\u3059\u304C\u304A\u9858\u3044\u3057\u307E\u3059\u2026\u2026
       \u2026\u2026\u3075\u3045\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: c7402e945ec7147429f4e42fe141ecfc, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u602A\u3057\u3044\u6C11\u9593\u4EBA\u306B\u306A\u3063\u305F\u899A\u3048\u306F\u306A\u3044\u3093\u3060\u3051\u3069\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: e6b30833218cc86478355d353dd8da97, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3067\u3082\u3001\u5B9F\u969B\u306E\u6240\u305D\u3046\u3058\u3083\u306A\u3044\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 05f369bd99839584a8d8dc934fbd1c3a, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u666E\u901A\u306E\u4EBA\u306F\u3001\u305D\u3093\u306A\u306B\u8B66\u5BDF\u306B\u77E5\u308A\u5408\u3044\u3044\u306A\u3044\u3088\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 7d1ca88474dcb244681760752f168672, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3046\u3046\u3001\u306A\u306B\u3082\u5426\u5B9A\u3067\u304D\u306A\u3044\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 888ddbb8338d2244c80cc751800bed8e, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3067\u3001\u4ECA\u65E5\u306E\u6210\u679C\u306F\u2026\u2026 \u305D\u306E\u611F\u3058\u3060\u3068\u3001\u30C0\u30E1\u305D\u3046\u3060\u306D\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: b7eae7e763d3a38449989267a1804344, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u9762\u76EE\u306A\u3044\u3067\u3059\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 2818c10eb36783f4ea93f2cf2c94b6d6, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3044\u3084\u3044\u3084\u3001\u521D\u65E5\u3067\u898B\u3064\u304B\u308B\u307B\u3046\u304C\u7A00\u3060\u3063\u3066\uFF01
       \u306A\u3093\u306B\u3082\u7533\u3057\u8A33\u7121\u304F\u306A\u3044\u304B\u3089\u306D\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: bdb10de43cb4deb418887c8659a3799a, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u5343\u6625\u3001\u305D\u308C\u3001\u79C1\u306E\u30BB\u30EA\u30D5\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: c921bcfb7341dcf44929677d9ed95ad4, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u307E\u3042\u3001\u5343\u6625\u306E\u8A00\u3046\u3068\u304A\u308A\u3060\u304B\u3089\u5927\u4E08\u592B\u3002
       \u3068\u308A\u3042\u3048\u305A\u3001\u4ECA\u65E5\u306E\u7D4C\u7DEF\u3060\u3051\u6559\u3048\u3066\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 315dd0b24a64cc84eb5bed15a3489747, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u4F9D\u983C\u3092\u53D7\u3051\u3066\u304B\u3089\u7D42\u4E86\u307E\u3067\u306E\u5831\u544A\u66F8\u304C\u5FC5\u8981\u306A\u306E\u3067\u3059\u3002
       \u4E8B\u52D9\u54E1\u3068\u3057\u3066\u306F\u9762\u5012\u304F\u3055\u3044\u3053\u3068\u3053\u306E\u4E0A\u306A\u3044\u3088\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: bbc9f4a85348ea74288eab1fa4ed182a, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u81EA\u5206\u304B\u3089\u7ACB\u5019\u88DC\u3057\u3066\u304D\u305F\u304F\u305B\u306B\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 0ebe598aefe24b84fbb1e7758ccac208, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
@@ -2856,148 +3155,176 @@ MonoBehaviour:
       \u3061\u3087\u3046\u3069\u5C31\u8077\u5148\u3082\u6C7A\u307E\u3089\u306A\u304B\u3063\u305F\u3057\u3001
       \u5E7C\u99B4\u67D3\u306A\u3089\u5B89\u5FC3\u3060\u3057\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: a0d2419047e4196489709f6448a890d5, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u512A\u5E0C\u3061\u3083\u3093\u306F\u3001 \u3053\u3093\u306A\u3060\u3081\u306A\u5927\u4EBA\u306B\u306A\u3089\u306A\u3044\u3088\u3046\u306B\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 294f292de23d43f43b12e4eb151d25c5, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u306F\u3001\u306F\u3042\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 1dadfdfb621bffc40b309ef4d25038b5, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u307E\u3042\u3068\u306B\u304B\u304F\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 69bf99b178d484d409d541806968f987, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u5831\u544A\u66F8\u306E\u4F5C\u6210\u3092\u7D30\u3005\u3084\u3089\u306A\u3044\u3068\u306D\u3001
       \u9762\u5012\u306A\u3053\u3068\u3082\u591A\u3044\u304B\u3089\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 4acc2cfaba23ff9448f2c2a61643348c, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u7279\u306B\u30DA\u30C3\u30C8\u306E\u635C\u7D22\u306A\u3093\u304B\u306F\u306D\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 6bd89de4746abfa429946d12fc4ad861, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u306A\u3093\u304B\u3044\u308D\u3044\u308D\u3001 \u5ACC\u306A\u601D\u3044\u51FA\u304C\u8607\u3063\u3066\u304D\u3061\u3083\u3046\u306D\u3047\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 9444cdc0feaecc64c9ec9bf3e4bd15d7, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u5ACC\u306A\u601D\u3044\u51FA\u3063\u3066\u3001 \u306A\u306B\u304B\u3042\u3063\u305F\u3093\u3067\u3059\u304B\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: f5319ad5fa4e8f447b963bbccf89ebc5, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u306A\u3093\u3066\u3044\u3046\u304B\u2026\u2026 \u63A2\u5075\u306B\u4F9D\u983C\u3059\u308B\u4EBA\u3063\u3066\u3044\u3046\u306E\u306F\u306D\u30FC\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 4227623740c300c42906f34d965e88ae, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u6BBA\u4EBA\u4E8B\u4EF6\u306F\u305D\u306E\u5834\u3067\u89E3\u6C7A\u3059\u308B\u3068\u304B\u3001
       \u624B\u54C1\u306E\u7A2E\u306F\u4E00\u77AC\u3067\u898B\u7834\u308C\u308B\u3068\u304B\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 053d4786361599443b74603e7cac39b1, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3044\u304F\u3089\u306A\u3093\u3067\u3082\u904E\u5270\u306A\u671F\u5F85\u306A\u3093\u3060\u3051\u3069\u3001
       \u305D\u3046\u601D\u3063\u3066\u308B\u4EBA\u304C\u591A\u3044\u3093\u3060\u3088\u306D\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 8de0924284b33b046871b48816262a5e, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u305D\u308A\u3083\u3001\u904B\u304C\u826F\u3051\u308C\u3070\u63A2\u3057\u3082\u306E\u306F\u898B\u3064\u304B\u308B\u3057\u3001
       \u30DA\u30C3\u30C8\u3060\u3063\u3066\u3072\u3087\u3063\u3053\u308A\u51FA\u3066\u304F\u308B\u3053\u3068\u3082\u3042\u308B\u3051\u3069\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: e21ce8b6027e8384d938fc45e080f7f0, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u6BBA\u4EBA\u4E8B\u4EF6\u306F\u672C\u6765\u8B66\u5BDF\u306E\u9818\u5206\u3060\u3057\u3001
       \u624B\u54C1\u306E\u7A2E\u306B\u81F3\u3063\u3066\u306F\u304A\u9580\u9055\u3044\u3068\u3044\u3046\u304B\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: b4f54315c9f701645b606fe45efd392a, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3067\u3082\u3063\u3066\u3001\u6700\u521D\u306F\u79C1\u9054\u3082\u7D20\u4EBA\u3060\u3063\u305F\u304B\u3089\u3001
       \u732B\u3092\u63A2\u3059\u306E\u306B\u4E8C\u9031\u9593\u304F\u3089\u3044\u304B\u304B\u3063\u3066\u306D\u30FC\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 265de6e9777c21947a7ff32812d0d9b3, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u4F9D\u983C\u4EBA\u304C\u6012\u3063\u305F\u3068\u304B\u3067\u3059\u304B\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 8ce4151404bdce64188694007f1fd2e2, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u5831\u916C\u304C\u534A\u5206\u307E\u3067\u5024\u5207\u3089\u308C\u305F\u306D\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 9ba5f8eb16e031444a53cf6eca09bc0c, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3048\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 5c2d8ab7a641c874b9be4bae566eb639, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u4F9D\u983C\u81EA\u4F53\u306F\u9054\u6210\u3057\u3066\u308B\u306E\u306B\u3001
       \u307E\u308B\u3067\u5931\u6557\u3057\u305F\u304B\u306E\u3088\u3046\u306B\u8A00\u308F\u308C\u3066\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 4838e18fca36b3640ad13cee6f218089, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u305D\u3046\u3044\u3046\u308F\u3051\u306A\u306E\u3067\u3001 \u63A2\u5075\u696D\u306F\u30B9\u30D4\u30FC\u30C9\u547D\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 4a9084d913191804b8000c922e319ea0, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3055\u3066\uFF01 \u3068\u308A\u3042\u3048\u305A\u306F\u5831\u544A\u66F8\u3060\u306D\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: af97f58f7cc05674d9a985ff72851f91, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u66F8\u304D\u65B9\u6559\u3048\u308B\u304B\u3089\u3053\u3063\u3061\u3078\u3069\u3046\u305E\uFF5E\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 630f3e208fefed042957241ee6dca5c0, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3042\u3001\u306F\u3044\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: fcb5179d9eb17d44093ef2ebcc4e815f, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u7D42\u308F\u3063\u305F\u3089\u3001\u4ECA\u65E5\u306F\u304A\u75B2\u308C\u69D8\u3063\u3066\u3053\u3068\u3067\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: fcc158bccd769894e90a544bc872c57d, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u306F\u3044\uFF01\u3000\u304A\u75B2\u308C\u69D8\u3067\u3057\u305F\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: a5a5a4f518dbd8344bfbd1b260482fbc, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 5
     text: 
     Event: 1
+    vois: {fileID: 0}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: "\uFF08\u7FCC\u65E5\uFF09"
     Event: 0
+    vois: {fileID: 0}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3055\u3066\u3055\u3066\u3001\u4ECA\u65E5\u3082\u3084\u3063\u3066\u3044\u304D\u307E\u3059\u304B\u30FC\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 83a7ea1a8f255d74eb92f0e0364e284b, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3088\u308D\u3057\u304F\u304A\u9858\u3044\u3057\u307E\u3059\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: bce4388374043ff4d8de04304b3cf502, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
@@ -3005,43 +3332,51 @@ MonoBehaviour:
       \u732B\u306F\u305D\u3053\u307E\u3067\u6D3B\u52D5\u7BC4\u56F2\u304C\u5E83\u3044\u751F\u304D\u7269\u3067\u306F\u306A\u3044\u3051\u3069\u3001
       \u8FF7\u3044\u8FBC\u3093\u3058\u3083\u3046\u3053\u3068\u3082\u3042\u308B\u3057\u306D\u30FC\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: f68a4f150aeb1b0428ecec4b514238ea, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u308F\u304B\u308A\u307E\u3057\u305F\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 14021acaf82c06940bcb38b300ce3879, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3044\u3084\u30FC\u3057\u304B\u3057\u3001 \u65E9\u3044\u6240\u898B\u3064\u304B\u3063\u3066\u307B\u3057\u3044\u306D\u672C\u5F53\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 1bdaceb7d05264e4e9c25274bca0d1da, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3084\u3063\u3071\u308A\u3001\u3053\u3046\u3044\u3046\u4F9D\u983C\u306F\u5927\u5909\u306A\u3093\u3067\u3059\u304B\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: a414a7822d2d36b4398e075456f99d73, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u305D\u308C\u3082\u3042\u308B\u3051\u3069\u306D\u30FC\u2026\u2026
       \u306A\u3093\u3066\u3044\u3063\u305F\u3089\u3044\u3044\u304B\u306A\u3041\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: f877eac5a1dd83b48ae95a0164a6f224, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u4ECA\u56DE\u306E\u4F9D\u983C\u306E\u6700\u9AD8\u306E\u7D50\u679C\u3063\u3066\u3001
       \u4F55\u3060\u3068\u601D\u3046\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: c808f773fcdf89e4bb7e41e8ad42f037, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u305D\u308C\u306F\u3001\u3048\u3063\u3068\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: b407f11c396d6594f8bc69586e52a076, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u5F53\u7136\u3067\u3059\u3051\u3069\u3001 \u732B\u3061\u3083\u3093\u304C\u898B\u3064\u304B\u308B\u306E\u304C\u30D9\u30B9\u30C8\u3067\u306F\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 363068dcfd391f0408c50a848aeeb387, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
@@ -3049,28 +3384,33 @@ MonoBehaviour:
       \u3082\u3061\u308D\u3093\u898B\u3064\u304B\u308B\u306B\u8D8A\u3057\u305F\u3053\u3068\u306F\u306A\u3044\u3051\u3069\u3001
       \u305F\u3060\u898B\u3064\u304B\u308C\u3070\u305D\u308C\u304C\u6700\u826F\u3063\u3066\u308F\u3051\u3058\u3083\u306A\u304F\u3066\u306D\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: dbc867a3e8db63c4e93703afb06aa71c, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u982D\u306B\u300C\u7121\u4E8B\u306B\u300D\u3063\u3066\u306E\u304C\u3064\u304B\u306A\u3044\u3068\u3044\u3051\u306A\u3044\u306E\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: d7230e7782a07904fae9a66d2e78cc3d, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u7121\u4E8B\u306B\u2026\u2026\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 52680753696049b47974cfca807d7ce4, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3053\u3046\u3044\u3063\u3061\u3083\u3046\u3068\u3042\u308C\u3060\u3051\u3069\u3001
       \u6240\u8A6E\u306F\u732B\u3060\u304B\u3089\u3055\u30FC\u2026\u2026 \u8ECA\u306B\u8F62\u304B\u308C\u308B\u3068\u304B\u55A7\u5629\u3059\u308B\u3068\u304B\u3001\u3042\u308B\u3088\u306D\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 97f2c7dc3b5d5b043850cd994fa31f94, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u307E\u3042\u3001\u305D\u308C\u306F\u305D\u3046\u3067\u3059\u306D\u2026\u2026
       \u5BB6\u3067\u3060\u3063\u3066\u602A\u6211\u3059\u308B\u6642\u306F\u3057\u307E\u3059\u3057\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 3a9d0dafdf00c6840b918be96a9ce828, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
@@ -3078,26 +3418,31 @@ MonoBehaviour:
       \u5916\u306E\u4E16\u754C\u306A\u3093\u3066\u5371\u967A\u3067\u3044\u3063\u3071\u3044\u306A\u308F\u3051\u3067\u3001
       \u3061\u3087\u3063\u3068\u3057\u305F\u3053\u3068\u3067\u3060\u3081\u306B\u306A\u308A\u304B\u306D\u306A\u3044\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: b8816ff321a105c48b2e708d7d89d091, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u305D\u3093\u306A\u4E2D\u3067\u3001\u4F9D\u983C\u4EBA\u304C\u671B\u3093\u3067\u308B\u306E\u306F\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 1ebbec55a5dd48c4d847f26603b027eb, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u81EA\u5206\u306E\u30DA\u30C3\u30C8\u304C\u3001\u5225\u308C\u305F\u3068\u304D\u3068\u540C\u3058\u59FF\u306A\u3053\u3068\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: f8de24fd270a4564a80ff693342bd503, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u305D\u30FC\u3086\u30FC\u3053\u3068\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 2a6e61b040e45744b976035dd7b9301a, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u524D\u306B\u3082\u8A00\u3063\u305F\u3051\u3069\u306D\u3001 \u63A2\u5075\u306A\u3093\u3066\u640D\u306A\u8077\u696D\u3060\u304B\u3089\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 79e58b8ed7647ac4ab1fb9be2a5d428c, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
@@ -3105,75 +3450,117 @@ MonoBehaviour:
       \u75C5\u6C17\u306B\u306A\u3063\u3066\u308C\u3070\u6587\u53E5\u3082\u8A00\u308F\u308C\u308B\u3057\u3001
       \u6700\u60AA\u306E\u5834\u5408\u306A\u3093\u304B\u3001\u60F3\u50CF\u3082\u3057\u305F\u304F\u306A\u3044\u3088\u306D\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 7a65e888ecc9a8d4bb90e4b8f1b58f72, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3067\u3082\u3001\u305D\u308C\u306F\u5343\u6625\u3055\u3093\u305F\u3061\u306E\u305B\u3044\u3058\u3083\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: fefc70d8283c6b24c91752ece8de528a, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u305D\u308A\u3083\u3042\u79C1\u9054\u3060\u3063\u3066\u3001 \u81EA\u5206\u305F\u3061\u306E\u305B\u3044\u3060\u306A\u3093\u3066\u601D\u308F\u306A\u3044\u3051\u3069\u3001
       \u4F9D\u983C\u4EBA\u306F\u9055\u3046\u306E\u3088\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 451a600e23f86d54e8876f0df1504bd1, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u6012\u308A\u306E\u3076\u3064\u3051\u3069\u3053\u308D\u304C\u306A\u3044\u304B\u3089\u304B\u306A\u3001
       \u306A\u3093\u3066\u79C1\u3068\u5FD7\u4FDD\u306F\u601D\u3063\u3066\u305F\u308A\u3059\u308B\u3051\u3069\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: d1d476b95a08c1a47abcce198fbdad3a, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u305D\u3046\u3044\u3046\u308F\u3051\u306A\u3093\u3067\u3001 \u514E\u306B\u3082\u89D2\u306B\u3082\u30B9\u30D4\u30FC\u30C9\u547D\u3067\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: a6345e29d7d005c42afdee8cb8bbaed1, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u65E9\u3051\u308C\u3070\u65E9\u3044\u307B\u3069\u751F\u5B58\u7387\u304C\u4E0A\u304C\u308B\u306E\u306F\u3001
       \u4EBA\u9593\u3082\u732B\u3082\u4E00\u7DD2\u306A\u3093\u3060\u306D\u3047\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: b42b3285d838a3c4294bd767379220f9, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u306A\u308B\u307B\u3069\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 679db6a3feeddaa4187bbe198e0a12bd, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3054\u3081\u3093\u306D\u3001\u5922\u306E\u306A\u3044\u3053\u3068\u3092\u8A00\u3063\u3066\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 8fc5991503e2c4049bcc795c547cf4bb, type: 3}
+  - Name: "\u512A\u5E0C"
+    imagecount: 1
+    buckguraundcount: 0
+    text: "\u300C\u305D\u3093\u306A\u3053\u3068\u306A\u3044\u3067\u3059\uFF01\u300D"
+    Event: 0
+    vois: {fileID: 8300000, guid: b6469ee32991ea642852e2550f82d075, type: 3}
+  - Name: "\u512A\u5E0C"
+    imagecount: 1
+    buckguraundcount: 0
+    text: "\u300C\u3082\u3057\u3082\u79C1\u304C\u63A2\u5075\u306B\u306A\u308B\u306A\u3089\u3001
+      \u304D\u3063\u3068\u3001\u305D\u3046\u3044\u3046\u3068\u3053\u308D\u3082\u898B\u306A\u304D\u3083\u3044\u3051\u306A\u3044\u3057\u2026\u2026
+      \u300D"
+    Event: 0
+    vois: {fileID: 8300000, guid: 03503091c83225d4c80327730e887ef9, type: 3}
+  - Name: "\u512A\u5E0C"
+    imagecount: 1
+    buckguraundcount: 0
+    text: "\u300C\u4ECA\u306E\u3046\u3061\u306B\u6559\u308F\u308C\u3066\u3088\u304B\u3063\u305F\u3063\u3066\u3001
+      \u305D\u3046\u304A\u3082\u3044\u307E\u3059\uFF01 \u300D"
+    Event: 0
+    vois: {fileID: 8300000, guid: 6dc315bf6fa48a74db5344ec70a28ebd, type: 3}
+  - Name: "\u5343\u6625"
+    imagecount: 2
+    buckguraundcount: 0
+    text: "\u300C\u305D\u3046\uFF1F \u305D\u308C\u306A\u3089\u3001\u3088\u304B\u3063\u305F
+      \u300D"
+    Event: 0
+    vois: {fileID: 8300000, guid: 73051046a4fc67f4e833466ebb710074, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3055\u3066\u3001\u4ECA\u5EA6\u3053\u305D\u884C\u304D\u307E\u3059\u304B\uFF01
       \u732B\u3061\u3083\u3093\u306E\u7121\u4E8B\u3092\u7948\u308A\u3064\u3064\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 6ab80795bc1fed744a5a6506591b78d4, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u306F\u3044\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 30ea1f05756a7c2478d87a534caad125, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 4
     text: 
     Event: 1
+    vois: {fileID: 0}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u306F\u3063\u306F\u3063\u306F\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 3b9a8fb68449dcb4e839e32d4c44a872, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3044\u307E\u305B\u3093\u306D\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 46d752abd947fa242a9c232777e8e3c9, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3053\u308C\u306F\u3069\u3046\u3057\u305F\u3053\u3068\u3060\u308D\u3046\u306D\u3048\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 6e522b302e58e6448a50d90573dd90c3, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
@@ -3181,290 +3568,344 @@ MonoBehaviour:
       \u305D\u3046\u3067\u306A\u304F\u3066\u3082\u76EE\u7ACB\u3064\u5B50\u3060\u304B\u3089\u3001
       \u76EE\u6483\u60C5\u5831\u304F\u3089\u3044\u306F\u3042\u308A\u305D\u3046\u306A\u3082\u306E\u3060\u3051\u3069\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 9ded4ab9d81c382429e441743cc363cd, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u5B9F\u306F\u3082\u3046\u3001\u5BB6\u306B\u5E30\u3063\u3066\u305F\u308A\u3057\u307E\u305B\u3093\u304B\u306D\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 7fc3387d13836d348b4368b417a6df78, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3046\u3046\u3093\u2026\u2026 \u732B\u306F\u5BB6\u306B\u3064\u304F\u3063\u3066\u3044\u3046\u3057\u3001
       \u53EF\u80FD\u6027\u3068\u3057\u3066\u306F\u306A\u304F\u306F\u306A\u3044\u3051\u3069\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: e4dae438792eac44dbcf7c32ab7fd369, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3068\u308A\u3042\u3048\u305A\u5E30\u3063\u3066\u3001\u5FD7\u4FDD\u306B\u76F8\u8AC7\u3057\u3088\u3046\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 878cae9c785cec24584f06b891a70d85, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3061\u306A\u307F\u306B\u3001\u306A\u3093\u3067\u3059\u3051\u3069\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: a2a4f8c3e4adb0144b7087c3f9145bdb, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3069\u306E\u304F\u3089\u3044\u3067\u898B\u3064\u3051\u305F\u307B\u3046\u304C\u3044\u3044\u3001
       \u307F\u305F\u3044\u306A\u6307\u6A19\u3063\u3066\u3001\u3042\u308B\u3093\u3067\u3057\u3087\u3046\u304B\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: aef270d84f663f84faefb89d5eac5403, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u4E00\u9031\u9593\u4EE5\u5185\u3068\u304B\u3001\u4E94\u65E5\u9593\u3068\u304B\u3001
       \u305D\u306E\u304F\u3089\u3044\u3067\u3059\u304B\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: e1e0c76751e74584ca175530b28508a9, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3093\u3093\u30FC\u2026\u2026 \u4ECA\u307E\u3067\u306E\u7D4C\u9A13\u304B\u3089\u8A00\u3046\u3068\u3001
       \u3042\u306E\u30BF\u30A4\u30D7\u306E\u98FC\u3044\u4E3B\u306F\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: fe1e4234cdbdf6e44885c2cb06030ec1, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u4E09\u65E5\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: bb9e5b45ad8c9d549b544a49d53ba3da, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3048\u3001\u305D\u308C\u3063\u3066\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 067acd8779a491b40a4c62335bbb1567, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3046\u3093\u3001\u4ECA\u65E5\u306B\u306F\u898B\u3064\u3051\u3066\u304A\u304D\u305F\u304B\u3063\u305F\u306D\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 62224e0275d9cf74599183eac2770381, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3044\u3084\u30FC\u2026\u2026 \u307E\u3044\u3063\u305F\u306A\u30FC\u3001\u3053\u308C\u306F\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 2956d926048aaea43805d94d92f5c2ff, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u521D\u65E5\u306F\u96E8\u304C\u964D\u3063\u3066\u305F\u304B\u3089\u3068\u3057\u3066\u3082\u3001
       \u660E\u65E5\u306B\u306F\u898B\u3064\u3051\u306A\u3044\u3068\u307E\u305A\u3044\u304B\u306A\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: bb49af7a553bbf24a91645e3e1141e85, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u307E\u3001\u307E\u305A\u3044\u3058\u3083\u306A\u3044\u3067\u3059\u304B\uFF01
       \u3053\u308C\u306F\u3082\u3046\u3001\u4ECA\u304B\u3089\u3067\u3082\u63A2\u3057\u306B\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 30262f634c5310142a4471147255ad4e, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3044\u3084\u3001\u305D\u308C\u306F\u7121\u7406\u3060\u3068\u601D\u3046\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: f0c0fe1f3066d454ba3b7d66b031481d, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u6697\u304F\u306A\u3063\u305F\u3089\u732B\u306E\u6A21\u69D8\u306A\u3093\u304B\u308F\u304B\u3089\u306A\u3044\u3057\u3001
       \u305D\u3082\u305D\u3082\u3001\u541B\u3001\u9AD8\u6821\u751F\u3067\u3057\u3087\u3046\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: e121ac64bf263514689adfb0068fc606, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3042\u3093\u307E\u308A\u9045\u304F\u306A\u308B\u3068\u89AA\u5FA1\u3055\u3093\u3082\u5FC3\u914D\u3059\u308B\u3057\u3001
       \u88DC\u5C0E\u3055\u308C\u304B\u306D\u306A\u3044\u3057\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 640711a1bcc0d394c8d16053d28bafc0, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u305D\u3053\u3092\u8A00\u308F\u308C\u308B\u3068\u5F31\u3044\u3093\u3067\u3059\u3051\u3069\u2026\u2026
       \u3067\u3082\u3001\u660E\u65E5\u3067\u898B\u3064\u3051\u3089\u308C\u305D\u3046\u306A\u3093\u3067\u3059\u304B\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: ff5f625f6801605488e31c47d7e726b5, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3060\u304B\u3089\u5FD7\u4FDD\u306B\u76F8\u8AC7\u3059\u308B\u306E\u3002
       \u3042\u306E\u5B50\u306F\u306D\u30FC\u3001\u983C\u308A\u306B\u306A\u308B\u3088\u30FC\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 18b64779959bc644babef83c39128c07, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u305D\u308A\u3083\u3042\u983C\u308A\u306B\u306A\u308B\u3067\u3057\u3087\u3046\u3051\u3069\u3001
       \u732B\u63A2\u3057\u3067\u3082\u6D3B\u8E8D\u3055\u308C\u3066\u308B\u3093\u3067\u3059\u304B\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 55e098e057f19af4fa141c0d06f78eb1, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u6709\u540D\u306B\u306A\u308B\u524D\u306F\u3088\u304F\u3084\u3063\u3066\u305F\u3088\u30FC\uFF1F
       \u4ECA\u306F\u3061\u3087\u3063\u3068\u3001\u5FD9\u3057\u304F\u3066\u3084\u308C\u3066\u306A\u3044\u3051\u3069\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: a879d31d33185b14399e24ddce5b1f76, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3066\u3044\u3046\u304B\u3001\u4ECA\u56DE\u306E\u3082\u672C\u5F53\u306F\u306D\u3001
       \u672C\u4EBA\u3082\u3084\u308A\u305F\u304C\u3063\u3066\u305F\u7BC0\u3001\u3042\u308B\u304B\u3089\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 4a6c6a0ce54bf8d42a89215b6845b63d, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u305D\u3046\u306A\u3093\u3067\u3059\u304B\uFF1F \u5FD9\u3057\u305D\u3046\u306A\u306E\u306F\u308F\u304B\u308B\u3093\u3067\u3059\u3051\u3069\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 1f6271e7c8cff5f4abca9340f85ced29, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u5927\u304D\u306A\u4E8B\u4EF6\u3092\u6271\u3044\u3059\u304E\u3066\u306D\u3001
       \u3053\u3046\u3044\u3046\u3053\u3068\u304C\u3067\u304D\u306A\u304F\u306A\u3063\u3061\u3083\u3063\u305F\u304B\u3089\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 8888278cf9df4f54aadba2340b484262, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3084\u308A\u305F\u3044\u306A\u3089\u3001\u3084\u3089\u305B\u3066\u3042\u3052\u305F\u3044\u3093\u3060\u3051\u3069\u306D\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 1583294a67c0bfe45aa337f78e029543, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 2
     text: 
     Event: 1
+    vois: {fileID: 0}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3063\u3068\u3044\u3046\u308F\u3051\u3067\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: aa4ce3b2cdd76874d8d98c1487e7336a, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u306A\u3093\u306E\u6210\u679C\u3082\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: b09a4a23a965d4642aac789c3134d1d3, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u5F97\u3089\u308C\u307E\u305B\u3093\u3067\u3057\u305F\u3063\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: f8c2c175606f8ae468aabffcb38b1e24, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u306A\u3093\u304B\u3059\u3054\u3044\u3001\u606F\u3074\u3063\u305F\u308A\u3060\u306D\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: f4401a256879b0f4e85cf6fb622c8926, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u6253\u3061\u5408\u308F\u305B\u6E08\u307F\u3060\u304B\u3089\u5B89\u5FC3\u3057\u3066\u306D\uFF01
       \u306A\u3093\u306E\u6210\u679C\u3082\u306A\u3044\u306E\u306F\u672C\u5F53\u3060\u3051\u3069\u306D\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 4a695144b4b7a7042834a66ff22a6f40, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u306A\u306B\u3082\u5B89\u5FC3\u3067\u304D\u306A\u3044\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 5352eab45fd8594419cdd99c033fb7a8, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3059\u3001\u3059\u3044\u307E\u305B\u3093\u3067\u3057\u305F\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: a95a0763e40afbb459ed1718ae5c3c35, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3042\u3001\u3044\u3084\u3001\u305D\u306E\u3001 \u5225\u306B\u512A\u5E0C\u3061\u3083\u3093\u306E\u305B\u3044\u3058\u3083\u306A\u3044\u304B\u3089\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 6b10b83e7f3f3984eb82736328a17d7b, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3048\u3063\u3068\u3001\u305D\u308C\u3067\u7D50\u5C40\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: d3719114a621b7447b5f915433d2e353, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u4ECA\u65E5\u306F\u635C\u7D22\u7BC4\u56F2\u3092\u5E83\u3052\u3066\u307F\u305F\u3093\u3067\u3059\u3051\u3069\u3001
       \u898B\u3064\u304B\u308A\u307E\u305B\u3093\u3067\u3057\u305F\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: e4f5775f686aaae409a080d9e9c05fbc, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u5F71\u3082\u5F62\u3082\u5B58\u5728\u3057\u306A\u3044\u3093\u3060\u3088\uFF1F
       \u76EE\u6483\u60C5\u5831\u3055\u3048\u306A\u3057\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 81cbe1b8651dcd542823812d94b45e03, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u2026\u2026\u6700\u60AA\u306E\u30D1\u30BF\u30FC\u30F3\u304B\u3082\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 05900544c2215a6409da4ea9f07c6985, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u305D\u308C\u3063\u3066\u3001\u3082\u3057\u304B\u3057\u3066\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 8b220ce220cbde34aa8d8f1afa839fee, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3082\u3046\u6B7B\u3093\u3067\u308B\u3093\u3058\u3083\u306A\u3044\u304B\u3063\u3066\u3053\u3068\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 0af8495fa8a1d344fba839a675fdf807, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u305D\u306E\u5834\u5408\u306F\u3069\u3046\u3059\u308B\u3093\u3067\u3059\u304B\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: a89648d202fb98f4c91b086ce982bd67, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3069\u3046\u3059\u308B\u3093\u3067\u3059\u304B\u3063\u3066\u8A00\u3063\u3066\u3082\u2026\u2026
       \u3069\u3046\u3082\u3067\u304D\u306A\u3044\u304C\u3001\u7B54\u3048\u3058\u3083\u306A\u3044\u304B\u306A\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 592cb08d003587c4a970e506f72eb103, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u305D\u3046\u3044\u3046\u3082\u306E\u3001\u306A\u3093\u3067\u3059\u304B\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 7f55846c579f5c043bdaeecfe7a0dba7, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3068\u3044\u3046\u304B\u3001\u591A\u5206\u307E\u3060\u5927\u4E08\u592B\u3060\u3068\u601D\u3046\u3093\u3060\u3051\u3069\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 6cf5aea5d0982b0418336665d6fb4936, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3048\uFF1F\u3000\u3069\u3046\u3044\u3046\u3053\u3068\u3067\u3059\u304B\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 9aadb18572f7a1d418e7e9f77e4f2776, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3060\u304B\u3089\u3001\u591A\u5206\u6700\u60AA\u306E\u30D1\u30BF\u30FC\u30F3\u3067\u306F\u306A\u3044\u3088\u3063\u3066\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 539593c92c1cd3c4fad8f05d578602b8, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u306A\u3093\u3067\u5206\u304B\u308B\u308F\u3051\uFF1F \u5FD7\u4FDD\u306F\u4E00\u56DE\u3082\u732B\u63A2\u3057\u3066\u306A\u3044\u306E\u306B\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: c8d9d4bdeb7609d4c9c12ed19e451afb, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u4FDD\u5065\u6240\u3063\u3066\u3044\u3046\u3001 \u91CE\u826F\u732B\u91CE\u826F\u72AC\u306E\u30A8\u30AD\u30B9\u30D1\u30FC\u30C8\u304C\u3044\u308B\u304B\u3089\u306D\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 8644e0a625f85034bbad3a508298842f, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u305D\u308C\u3063\u3066\u3001\u8AB0\u304B\u304C\u4FDD\u5065\u6240\u306B\u6301\u3061\u8FBC\u3080\u3063\u3066\u3053\u3068\u3067\u3059\u304B\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 5f51c114750df904ea0992c781cbbed9, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u9055\u3046\u9055\u3046\u3002 \u4FDD\u5065\u6240\u3063\u3066\u5225\u306B\u3001\u72AC\u732B\u306E\u4FDD\u8B77\u3068\u304B\u3001
       \u307E\u3042\u3001\u6BBA\u51E6\u5206\u3068\u304B\u3001\u305D\u308C\u3060\u3051\u304C\u4ED5\u4E8B\u3058\u3083\u306A\u3044\u306E\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 95d3bcb1f9760484bb2e571fa644667e, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u907A\u4F53\u306E\u56DE\u53CE\u3068\u304B\u3082\u4ED5\u4E8B\u306A\u3093\u3060\u3088\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 162baf05a7355944eb33ef9c63768c9e, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u907A\u4F53\u306E\u3001\u56DE\u53CE\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 5f5b8d146f9bed74a85d8ca0f9e45cdd, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3042\u3001\u3082\u3057\u304B\u3057\u3066\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 015666074dc210f42989bdcb0e081e25, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3046\u3093\u3002 \u76EE\u7ACB\u3064\u7279\u5FB4\u306E\u72AC\u732B\u306A\u3089\u3001\u5F53\u7136\u8077\u54E1\u306E\u8A18\u61B6\u306B\u6B8B\u308B\u3088\u306D\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 4edb588aece68124f92a08ce319be50c, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
@@ -3472,199 +3913,236 @@ MonoBehaviour:
       \u4E00\u5FDC\u4ED6\u306E\u8077\u54E1\u3055\u3093\u306B\u3082\u805E\u3044\u3066\u3082\u3089\u3063\u3066\u308B\u3051\u3069\u3001
       \u4ECA\u306E\u3068\u3053\u308D\u306F\u5831\u544A\u306A\u3057\u3060\u3057\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 96158b282b7488442bbb1fb53434dcef, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3061\u3087\u3063\u3068\u5F85\u3063\u3066\uFF01 \u3044\u3064\u306E\u9593\u306B\u78BA\u8A8D\u3057\u305F\u306E\u305D\u308C\uFF01
       \u521D\u8033\u306A\u3093\u3060\u3051\u3069\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 7689035ff4a03294a86c8bec19221d13, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u805E\u304B\u308C\u306A\u304B\u3063\u305F\u3057\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 0c1d4286c4685d54ea664efadb5dd4bd, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3042\u3001\u308F\u304B\u308A\u307E\u3057\u305F\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 7fa245ee8185779498e6568fe0ea1110, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u6628\u65E5\u3001\u79C1\u9054\u304C\u5E30\u3063\u3066\u304D\u305F\u6642\u306E\u96FB\u8A71\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: e7c7881777f34d1409e0cb5225418871, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u304A\u304A\u3001\u92ED\u3044\u3002\u5927\u6B63\u89E3\u3067\u3059\u3002
       \u3061\u3087\u3046\u3069\u3042\u306E\u96FB\u8A71\u304C\u3001\u4FDD\u5065\u6240\u306B\u78BA\u8A8D\u3057\u305F\u6642\u306E\u3060\u3088\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: ae0d3c80a6ea380409572ff7f1b7f746, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3060\u304B\u3089\u3001\u306A\u3093\u3067\u6559\u3048\u3066\u304F\u308C\u306A\u304B\u3063\u305F\u306E\uFF1F\u300D
       \u30DB\u30A6\u30EC\u30F3\u30BD\u30A6\u3063\u3066\u77E5\u3089\u306A\u3044\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: b0089350d963ca54b93df3420d085071, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u304A\u3072\u305F\u3057\u306B\u3059\u308B\u3068\u7F8E\u5473\u3057\u3044\u3084\u3064\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 70b840491af42bd479d18a6fd37eacf2, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u80E1\u9EBB\u548C\u3048\u3082\u7F8E\u5473\u3057\u3044\u3067\u3059\u3088\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 6c8449714b9db074c92a030bbbd496d7, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u305D\u3063\u3061\u306E\u8A71\u306F\u3057\u3066\u306A\u3044\u304B\u3089\u306D\u3002
       \u308F\u304B\u308A\u304D\u3063\u305F\u30AE\u30E3\u30B0\u306F\u3044\u3089\u306A\u3044\u306E\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 38a4655cc7c83e348b780827352b82b0, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u6700\u521D\u3063\u304B\u3089\u6B7B\u3093\u3067\u308B\u3053\u3068\u3092\u60F3\u5B9A\u3057\u3066\u308B\u306E\u3001
       \u306A\u3093\u304B\u5ACC\u3058\u3083\u306A\u3044\uFF1F \u3060\u304B\u3089\u6559\u3048\u306A\u304B\u3063\u305F\u306E\u3082\u3042\u308B\u3088\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: fa4fe1649aae5cb49acf78527429a6fd, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u8A18\u5FF5\u3059\u3079\u304D\u521D\u4ED5\u4E8B\u304C\u305D\u3093\u306A\u3075\u3046\u306B\u7D42\u308F\u3063\u305F\u3089\u3001
       \u304B\u308F\u3044\u305D\u3046\u3060\u306A\u3063\u3066\u601D\u3063\u305F\u304B\u3089\u306D\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 12c92dcaab09b024e8fd6554ab881bfa, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u2026\u2026\u3042\u308A\u304C\u3068\u3046\u3001\u3054\u3056\u3044\u307E\u3059\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: d31a652a5b9279548a797dd527d82b91, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3093\u3001\u3069\u3046\u3044\u305F\u3057\u307E\u3057\u3066\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 15070b07f3965504fad97f9edabb36c3, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3055\u3066\u3055\u3066\u3001\u305D\u308C\u3058\u3083\u3042\u2026\u2026
       \u660E\u65E5\u306F\u79C1\u3082\u63A2\u3057\u306B\u884C\u3053\u3046\u304B\u306A\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 26556c170252f5b48b3e4db12cc15b44, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u65E5\u672C\u306E\u5973\u30DB\u30FC\u30E0\u30BA\u304C\u3001\u3064\u3044\u306B\u91CD\u3044\u8170\u3092\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 672e7c3bb5e204a45838d85e484057b2, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u91CD\u3044\u3068\u304B\u8A00\u308F\u306A\u3044\u3067\uFF01 \u3066\u3044\u3046\u304B\u3001\u305D\u306E\u4E8C\u3064\u540D\u3082\u5ACC\u3060\u304B\u3089\u306D\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 603c0e34f377e7b48ac1046c16b85e7a, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u307E\u3042\u3068\u306B\u304B\u304F\u3001\u660E\u65E5\u306F\u3088\u308D\u3057\u304F\u306D\u3001\u512A\u5E0C\u3061\u3083\u3093\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 479bac78e7b5a9446bcae5573dd74b3e, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u306F\u3044\uFF01\u3000\u3088\u308D\u3057\u304F\u304A\u9858\u3044\u3057\u307E\u3059\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 54eb450fcf7755242bedd20790a48b39, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3042\u3001\u5343\u6625\u306F\u7559\u5B88\u756A\u3060\u304B\u3089\u306D\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 777780b623647dc4591266fa96ea4511, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u81F4\u3057\u65B9\u306A\u3057\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: eb33fedf4f665234da81d5bb42b61e54, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 5
     text: 
     Event: 1
+    vois: {fileID: 0}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: "\uFF08\u7FCC\u65E5\uFF09"
     Event: 0
+    vois: {fileID: 0}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3055\u3066\u3055\u3066\u3001\u63A2\u305D\u3046\u304B\u30FC\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 147b2466d942dde47bb491c8b5221de6, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3067\u3082\u3001\u3053\u306E\u3042\u305F\u308A\u306F\u6628\u65E5\u3082\u4E00\u6628\u65E5\u3082\u63A2\u3057\u307E\u3057\u305F\u3088\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 7c38047522419374f935950645d7de34, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u305D\u3053\u306F\u305D\u308C\u3001\u8003\u3048\u65B9\u3092\u5909\u3048\u307E\u3057\u3087\u3046\u3002
       \u601D\u8003\u306F\u67D4\u8EDF\u306B\u306D\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: b14b6c540c768d946bb52852739c2bcb, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u8003\u3048\u65B9\u2026\u2026\u3048\u30FC\u3063\u3068\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: d892456256b79f64792a7dfb34490bde, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u732B\u306F\u3044\u306A\u3044\u3093\u3058\u3083\u306A\u3044\u3088\u3001
       \u898B\u3064\u3051\u3089\u308C\u306A\u3044\u3060\u3051\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: ab7fda42ee0b0084d927d3fd171d87c1, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3059\u3044\u307E\u305B\u3093\u2026\u2026 \u9055\u3044\u304C\u3001\u3088\u304F\u308F\u304B\u3089\u306A\u3044\u3067\u3059\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 7dec0319ebdda0445b25eaad6a7ba63f, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3046\u30FC\u3093\u3068\u306D\u3047\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 0b9aad84417b58148b30deb088858f86, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u79C1\u305F\u3061\u306F\u3001\u5927\u5B66\u5352\u696D\u5F8C\u306B\u3044\u308D\u3044\u308D\u3068\u306D\u3001
       \u304A\u304A\u3088\u305D\u4E09\u5E74\u304F\u3089\u3044\u3001\u732B\u3092\u63A2\u3057\u3066\u304D\u305F\u308F\u3051\u3060\u3051\u3069\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: c11e266e38118e342a2e9b31e0486ad4, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u305D\u3046\u304D\u304F\u3068\u3001\u3061\u3087\u3063\u3068\u3042\u308C\u3067\u3059\u306D\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 2a338d993cc1d7d42a363e218b154796, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u79C1\u3082\u3001\u4ECA\u305D\u3046\u601D\u3063\u305F\u6240\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 6c648fff82ad85a499f0b4e4a434fa93, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3068\u306B\u304B\u304F\uFF01 \u732B\u304C\u898B\u3064\u3051\u3089\u308C\u306A\u3044\u7406\u7531\u3092\u306D\u3001
       \u3044\u308D\u3044\u308D\u3068\u7406\u89E3\u3057\u305F\u308F\u3051\u306A\u306E\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 532145ae01610794db31dfa405c7c802, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u4E00\u3064\u306F\u5F53\u7136\u3001\u305D\u306E\u5834\u6240\u306B\u3044\u306A\u3044\u3053\u3068\u3002
       \u3044\u306A\u3044\u3082\u306E\u306F\u3069\u3046\u63A2\u3057\u3066\u3082\u307F\u3064\u304B\u3089\u306A\u3044\u3088\u306D\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 80d9482407ea9524495009f8f1c7fe46, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u307E\u3042\u3001\u305D\u308C\u306F\u305D\u3046\u3067\u3059\u3088\u306D\u2026\u2026
       \u3067\u3082\u3001\u4ECA\u56DE\u306F\u9055\u3046\u308F\u3051\u3067\u3059\u304B\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: c51bd7e1844c99740b2f79ef8c7906ea, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3059\u304F\u306A\u304F\u3068\u3082\u3001\u79C1\u306F\u305D\u3046\u601D\u3063\u3066\u308B\u3088\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: c2262f7ba59557d4d889fcb27d75426a, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
@@ -3672,6 +4150,7 @@ MonoBehaviour:
       \u898B\u3064\u304B\u3089\u306A\u3044\u5834\u6240\u306B\u3044\u308B\u3053\u3068\u3002
       \u602A\u6211\u3092\u3057\u305F\u304B\u3089\u96A0\u308C\u3066\u308B\u3068\u304B\u306D\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: ea75deca65e0db14d8d0f02fd78408a0, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
@@ -3679,158 +4158,189 @@ MonoBehaviour:
       \u7406\u7531\u306F\u7C21\u5358\u3067\u3001\u5BB6\u732B\u3060\u304B\u3089\u3002
       \u96A0\u308C\u308B\u5834\u6240\u306A\u3093\u304B\u308F\u304B\u3089\u306A\u3044\u3068\u601D\u3046\u3057\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 22eeeaa0c3db493419bb6badfb80f139, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3068\u306A\u308B\u3068\u7B54\u3048\u306F\u591A\u5206\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: c399889216051c4428cffd8a7da396b0, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: "\uFF08\u732B\u306E\u9CF4\u304D\u58F0\uFF09"
     Event: 0
+    vois: {fileID: 0}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3042\uFF01\u3000\u305D\u306E\u5B50\u6355\u307E\u3048\u3066\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 8f135c618ea7332478168a93ddd11bab, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u306F\u3001\u306F\u3044\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 7aabfa4ff4ce22c4e81ec01402fd2e59, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u9003\u3052\u308B\u304B\u3089\u6C17\u3092\u3064\u3051\u3066\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 25076dec64993d74eb902f67a2c4b758, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: "\uFF08\u306A\u3093\u304B\u30C9\u30BF\u30D0\u30BF\u3057\u3066\u308B\u611F\u3058\uFF09"
     Event: 0
+    vois: {fileID: 0}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u304A\u3068\u306A\u3057\u304F\u3057\u3066\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: c65ad19fa27b54b46933e8817d62557d, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u4ECA\u3063\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: c43ea1a60346596498435cca6997668f, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 66ff4651ca51be64a9ebe782dce616cb, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 5ddd78b7cc7ea8b49958514f8846254e, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u6355\u307E\u3048\u307E\u3057\u305F\u3041\u30FC\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 85850f525c080a944afa9d69719161a4, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3088\u3057\u3088\u3057\u3001\u304A\u3064\u304B\u308C\uFF5E\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 47b2beb11d005784ca03471cf8ca909d, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3067\u3082\u3001\u3053\u306E\u5B50\u2026\u2026 \u3069\u3046\u898B\u3066\u3082\u3001\u5225\u306E\u732B\u3061\u3083\u3093\u3058\u3083\u306A\u3044\u3067\u3059\u304B\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 2567fd5e3b29ac643bb327ec2509ca97, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3042\u306E\u3001\u984D\u306E\u7279\u5FB4\u7684\u306A\u6A21\u69D8\u3082\u306A\u3044\u3057\u2026\u2026
       \u8272\u3082\u5168\u7136\u9055\u3046\u6C17\u304C\u3057\u307E\u3059\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 5b155cf60753fa4479d198aecc65796e, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u9996\u8F2A\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: fe9e4299ea7a051489a971d911a8194e, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3048\uFF1F\u3000\u3042\u3001\u672C\u5F53\u3060\u3002 \u9996\u8F2A\u304C\u3064\u3044\u3066\u308B\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: f58578baf82264b468ca540b8bb8f9d6, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u591A\u5206\u3001\u540D\u524D\u3082\u66F8\u3044\u3066\u3042\u308B\u3088\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 313a59c7840ac9745861745fdf13aae4, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u2026\u2026\uFF01 \u672C\u5F53\u3060\uFF01\u3000\u3053\u306E\u5B50\u304C\u2026\u2026\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 6a6976340d6e5c54cb3bcfd1fa90ea45, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3053\u308C\u306B\u3066\u4E00\u898B\u843D\u7740\uFF5E\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 4ed902520bba6f84ea586d3220921fb9, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 2
     text: 
     Event: 1
+    vois: {fileID: 0}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u7A2E\u660E\u304B\u3057\u3092\uFF01 \u7A2E\u660E\u304B\u3057\u3092\u304A\u9858\u3044\u3057\u307E\u3059\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 53d7a72f2f8a82548b63ea1aafc9374a, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3044\u3084\u3044\u3084\u3001 \u624B\u54C1\u3058\u3083\u306A\u3044\u3093\u3060\u304B\u3089\u2026\u2026\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: dee5b5e2ac4d66246a6b8b928dc2e130, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u30A2\u30BF\u30B7\u3082\u6559\u3048\u3066\u307B\u3057\u3044\u306A\u30FC\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 9caab3879a2d0334a981afe1e47dbe3d, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3042\u3093\u305F\u306F\u305D\u306E\u524D\u306B\u3001 \u732B\u3061\u3083\u3093\u6D17\u3063\u3066\u304D\u3066\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 1fb8b77eeb7b4604f9f6ec513fc06511, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3048\uFF5E\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 6ec39c9148cbce74eb2794b1beb6828f, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 2
     text: 
     Event: 1
+    vois: {fileID: 0}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3055\u3066\u3001\u3067\u306F\u307E\u3042\u3001 \u7406\u7531\u3092\u8AAC\u660E\u3057\u3088\u3046\u304B\u306A\uFF1F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: dd4a8cba8b1289844b114b999289f49e, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u6700\u521D\u306B\u8A00\u3063\u3066\u304A\u304F\u3068\u3001 \u4E00\u767A\u3067\u5F53\u305F\u3063\u305F\u306E\u306F\u672C\u5F53\u306B\u5076\u7136\u3060\u3088\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 5ae061ca02cbf364e9fa050054f57b5d, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u305F\u3060\u3001\u6628\u65E5\u306E\u6642\u70B9\u3067\u3042\u308B\u7A0B\u5EA6\u3001
       \u5916\u898B\u306E\u3042\u305F\u308A\u306F\u3064\u3044\u3066\u305F\u3051\u3069\u306D\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: d953c9d73a0605d4d92c9bb7d75c44b5, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u5916\u898B\u3001\u3067\u3059\u304B\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 320983bde70262047af9f99205d8ba32, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
@@ -3838,109 +4348,130 @@ MonoBehaviour:
       \u7DBA\u9E97\u306A\u307E\u307E\u3067\u3044\u308B\u308F\u3051\u306A\u3044\u3088\u306D\uFF1F
       \u6CE5\u307E\u307F\u308C\u306B\u306A\u3063\u305F\u308A\u3068\u304B\u3055\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 3f8525f9cdb522b40b0e2386ab79f05b, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u306A\u306E\u3067\u3001\u8336\u8272\u3063\u307D\u3044\u3068\u3044\u3046\u304B\u3001
       \u6C5A\u308C\u305F\u732B\u3092\u63A2\u3057\u305F\u308F\u3051\u3002 \u9996\u8F2A\u304C\u3064\u3044\u3066\u308B\u3084\u3064\u3092\u306D\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 1d5a3dea6fe8e634eaab8831054d863c, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u306A\u308B\u307B\u3069\u2026\u2026 \u51C4\u3044\u3067\u3059\u2026\u2026\u5168\u7136\u3001\u601D\u3044\u3064\u304D\u3082\u3057\u307E\u305B\u3093\u3067\u3057\u305F\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: 90f273962b241344b888041cde9489f9, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u305D\u3053\u306F\u307B\u3089\u3001\u7D4C\u9A13\u3068\u304B\u306D\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 7fb32729f2636d7429162ccf1577559c, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3055\u3001\u4F9D\u983C\u4EBA\u304C\u5F15\u304D\u53D6\u308A\u306B\u6765\u308B\u304B\u3089\u3001
       \u30B7\u30E3\u30F3\u3068\u3057\u3066\u3001\u81EA\u4FE1\u3042\u308B\u9854\u3057\u3066\uFF01\u300D "
     Event: 0
+    vois: {fileID: 8300000, guid: cd8879f5981c5014b9d516fc29ced398, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u305D\u3057\u3066\u6210\u529F\u5831\u916C\u3092\u643E\u308A\u53D6\u3063\u3066\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: ea0c405f57a109a419377c049e604b9d, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u3044\u3084\u3001\u305D\u308C\u306F\u3057\u306A\u3044\u3051\u3069\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 2153147994033364a8877a459acd7cf3, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: "\uFF08\u30A4\u30F3\u30BF\u30FC\u30DB\u30F3\u306E\u97F3\uFF09"
     Event: 0
+    vois: {fileID: 0}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u304A\u3001\u5642\u3092\u3059\u308C\u3070\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: baa645de88d94e94698b86f819cf38ac, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u3042\u3001\u79C1\u304C\u5BFE\u5FDC\u3057\u307E\u3059\uFF01\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: f3357383c2910734d84edc134ff1d3da, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: "\uFF08\u30C9\u30A2\u304C\u958B\u304F\u97F3\uFF09"
     Event: 0
+    vois: {fileID: 0}
   - Name: "\u4F9D\u983C\u4EBA"
     imagecount: 0
     buckguraundcount: 0
     text: "\u300C\u3042\u306E\u3001\u3053\u3053\u304C\u85E4\u5BAE\u3055\u3093\u306E\u4E8B\u52D9\u6240\u3067\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 0}
   - Name: "\u512A\u5E0C"
     imagecount: 1
     buckguraundcount: 0
     text: "\u300C\u2026\u2026\u3042\u308C\uFF1F\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 1a86f14c73ae51243baeb4841331925e, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u3042\u30FC\u2026\u2026\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 43037d3b65e441945a6486ebfa238967, type: 3}
   - Name: "\u5343\u6625"
     imagecount: 2
     buckguraundcount: 0
     text: "\u300C\u65B0\u898F\u69D8\u4E00\u540D\u3001\u3054\u3042\u3093\u306A\u30FC\u3044\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 7173313b101ec5a42957d822258c15a4, type: 3}
   - Name: "\u5FD7\u4FDD"
     imagecount: 3
     buckguraundcount: 0
     text: "\u300C\u2026\u2026\u3044\u3064\u306B\u306A\u3063\u305F\u3089\u7D42\u308F\u308B\u3093\u3060\u308D\u3046\u300D"
     Event: 0
+    vois: {fileID: 8300000, guid: 65e5770666078e2429a9517be671d0b0, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: 
     Event: 1
+    vois: {fileID: 0}
   - Name: "\u512A\u5E0C"
     imagecount: 0
     buckguraundcount: 0
     text: "\u3053\u3046\u3057\u3066\u3001\u79C1\u306E\u63A2\u5075\u3068\u3057\u3066\u306E\u521D\u4ED5\u4E8B\u306F\u7D42\u308F\u3063\u305F\u3002"
     Event: 0
+    vois: {fileID: 8300000, guid: 804d3a2d60fa8704dace389471023e1a, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 0
     buckguraundcount: 0
     text: "\u3053\u306E\u5F8C\u3082\u3001\u3084\u3081\u308B\u3068\u8A00\u3044\u3064\u3064\u4F9D\u983C\u3092\u65AD\u308C\u306A\u3044\u5FD7\u4FDD\u3055\u3093\u306B\u3088\u308A\u3001
       \u6B21\u304B\u3089\u6B21\u3078\u3068\u4F9D\u983C\u304C\u821E\u3044\u8FBC\u307F\u3001\u306A\u3093\u3060\u304B\u3093\u3060\u3068\u2026\u2026 "
     Event: 0
+    vois: {fileID: 8300000, guid: 750f6bbc8e182314a9ec6f65a852db93, type: 3}
   - Name: "\u512A\u5E0C"
     imagecount: 0
     buckguraundcount: 0
     text: "\u79C1\u306F\u3001\u63A2\u5075\u3068\u3057\u3066\u306E\u9053\u3092\u9032\u3093\u3067\u3044\u304F\u306E\u3067\u3042\u308B\u3002"
     Event: 0
+    vois: {fileID: 8300000, guid: 6a4f5abb102ffd447b7b52611d045908, type: 3}
   - Name: 
     imagecount: 0
     buckguraundcount: 0
     text: END
     Event: 0
+    vois: {fileID: 0}
   timer: 0
   nextstory: 
   nametext: {fileID: 1459013337}
@@ -3959,6 +4490,86 @@ MonoBehaviour:
   closeobj: {fileID: 1271816897}
   topbutton: {fileID: 1517192343}
   touchcheck: 0
+--- !u!82 &1854844337
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1854844333}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &1905007448
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,6 +13,7 @@ public class text_name_script : MonoBehaviour {
 		public int buckguraundcount;//背景番号
 		public string text;//テキスト
 		public bool Event;//イベント
+        public AudioClip vois;//声
 	}
 	public textStatus[] TS;//structを配列
 
@@ -35,9 +36,11 @@ public class text_name_script : MonoBehaviour {
 
     public bool touchcheck = false;//ボタン以外の画面タッチ
 
-	void Start () {
-		Eventcheck ();
+    AudioSource AS;//AudioSource
 
+    void Start () {
+        AS = GetComponent<AudioSource>();//AudioSource獲得
+        Eventcheck ();
 	}
 
 
@@ -56,10 +59,13 @@ public class text_name_script : MonoBehaviour {
 			//-----すべて表示-----
 
 				if (textcheck) {
-			
-					nextsin.enabled = false;
-					//口パク
-					for (int i = 0; i < chracter.Length; i++) {
+
+                nextsin.enabled = false;//次のシーンに移動可能の画像を非表示
+                
+
+
+                //口パク
+                for (int i = 0; i < chracter.Length; i++) {
 						if (chracter[i] == null) return;
 						chracter [i].GetComponent<live2dscript> ().mouthcheck = true;
 					}
@@ -105,8 +111,10 @@ public class text_name_script : MonoBehaviour {
 					//表示が終了してるときにクリックしたら次のテキストに切り替える
 					if (touchcheck && GetComponent<fade_black> ().fade_check == false) {
                     touchcheck = false;
-						Eventcheck ();
-					}
+                    AS.Stop();//音再生
+                    Eventcheck ();
+                   
+                }
 				}
 				
 			} else {
@@ -176,11 +184,20 @@ public class text_name_script : MonoBehaviour {
 				storytext.text = "";//テキスト初期化
 				textcheck = true;//表示開始	
 			}
-			alltextnunber++;//次の配列に
-		}else{
 
-			fadeout.next="end";
-			fadeout.fade_ok = true;
+            //-----音-----
+             AS.clip = TS[alltextnunber].vois;//音声ファイルセット
+            AS.Play();//音再生
+            //-----音-----
+
+            alltextnunber++;//次の配列に
+           
+          
+        }
+        else{
+
+			fadeout.next="end";//次のシーンの名前を入力
+			fadeout.fade_ok = true;//フェードアウト開始
 		}
 	}
 
